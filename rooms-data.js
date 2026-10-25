@@ -12,34 +12,34 @@ window.LIMONI_ROOMS = [
   "room": 201,
   "type": 1,
   "typeName": "Xanh đêm & San hô",
-  "plan": "assets/rooms/plans/s01.jpg",
+  "plan": "assets/rooms/plans/s01.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m01-01.jpg",
+    "src": "assets/rooms/types/m01-01.webp",
     "cap": "Lối vào & tủ hành lý",
     "w": 1400,
     "h": 1400
    },
    {
-    "src": "assets/rooms/types/m01-02.jpg",
+    "src": "assets/rooms/types/m01-02.webp",
     "cap": "Cấu hình hai giường đơn",
     "w": 1600,
     "h": 1203
    },
    {
-    "src": "assets/rooms/types/m01-03.jpg",
+    "src": "assets/rooms/types/m01-03.webp",
     "cap": "Giường King",
     "w": 1600,
     "h": 1211
    },
    {
-    "src": "assets/rooms/types/m01-04.jpg",
+    "src": "assets/rooms/types/m01-04.webp",
     "cap": "Bàn trang điểm",
     "w": 1424,
     "h": 1422
    },
    {
-    "src": "assets/rooms/types/m01-05.jpg",
+    "src": "assets/rooms/types/m01-05.webp",
     "cap": "Phòng tắm",
     "w": 1400,
     "h": 1400
@@ -47,32 +47,32 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s01-1.jpg",
+    "src": "assets/rooms/art/s01-1.webp",
     "w": 1000,
     "h": 1000
    },
    {
-    "src": "assets/rooms/art/s01-2.jpg",
+    "src": "assets/rooms/art/s01-2.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s01-3.jpg",
+    "src": "assets/rooms/art/s01-3.webp",
     "w": 639,
     "h": 483
    },
    {
-    "src": "assets/rooms/art/s01-4.jpg",
+    "src": "assets/rooms/art/s01-4.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s01-5.jpg",
+    "src": "assets/rooms/art/s01-5.webp",
     "w": 360,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s01-6.jpg",
+    "src": "assets/rooms/art/s01-6.webp",
     "w": 576,
     "h": 720
    }
@@ -89,22 +89,22 @@ window.LIMONI_ROOMS = [
   "room": 202,
   "type": 2,
   "typeName": "Burgundy & Phòng tranh",
-  "plan": "assets/rooms/plans/s02.jpg",
+  "plan": "assets/rooms/plans/s02.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m02-01.jpg",
+    "src": "assets/rooms/types/m02-01.webp",
     "cap": "Lối vào & tường tranh",
     "w": 1400,
     "h": 1400
    },
    {
-    "src": "assets/rooms/types/m02-02.jpg",
+    "src": "assets/rooms/types/m02-02.webp",
     "cap": "Giường nhung burgundy",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m02-03.jpg",
+    "src": "assets/rooms/types/m02-03.webp",
     "cap": "Giường & tủ áo",
     "w": 1600,
     "h": 1200
@@ -117,27 +117,27 @@ window.LIMONI_ROOMS = [
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s02-2.jpg",
+    "src": "assets/rooms/art/s02-2.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s02-3.jpg",
+    "src": "assets/rooms/art/s02-3.webp",
     "w": 720,
     "h": 851
    },
    {
-    "src": "assets/rooms/art/s02-4.jpg",
+    "src": "assets/rooms/art/s02-4.webp",
     "w": 269,
     "h": 404
    },
    {
-    "src": "assets/rooms/art/s02-5.jpg",
+    "src": "assets/rooms/art/s02-5.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s02-6.jpg",
+    "src": "assets/rooms/art/s02-6.webp",
     "w": 516,
     "h": 773
    }
@@ -154,22 +154,22 @@ window.LIMONI_ROOMS = [
   "room": 203,
   "type": 3,
   "typeName": "Phòng Tròn",
-  "plan": "assets/rooms/plans/s03.jpg",
+  "plan": "assets/rooms/plans/s03.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m03-01.jpg",
+    "src": "assets/rooms/types/m03-01.webp",
     "cap": "Hành lang vòm trưng bày",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m03-02.jpg",
+    "src": "assets/rooms/types/m03-02.webp",
     "cap": "Giường tròn với vòm canopy",
     "w": 1400,
     "h": 1400
    },
    {
-    "src": "assets/rooms/types/m03-03.jpg",
+    "src": "assets/rooms/types/m03-03.webp",
     "cap": "Giường tròn, góc nhìn khác",
     "w": 1600,
     "h": 1600
@@ -177,32 +177,32 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s03-1.jpg",
+    "src": "assets/rooms/art/s03-1.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s03-2.jpg",
+    "src": "assets/rooms/art/s03-2.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s03-3.jpg",
+    "src": "assets/rooms/art/s03-3.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s03-4.jpg",
+    "src": "assets/rooms/art/s03-4.webp",
     "w": 225,
     "h": 233
    },
    {
-    "src": "assets/rooms/art/s03-5.jpg",
+    "src": "assets/rooms/art/s03-5.webp",
     "w": 221,
     "h": 280
    },
    {
-    "src": "assets/rooms/art/s03-6.jpg",
+    "src": "assets/rooms/art/s03-6.webp",
     "w": 576,
     "h": 720
    }
@@ -219,16 +219,16 @@ window.LIMONI_ROOMS = [
   "room": 204,
   "type": 4,
   "typeName": "Xanh Ngọc lục bảo",
-  "plan": "assets/rooms/plans/s04.jpg",
+  "plan": "assets/rooms/plans/s04.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m04-01.jpg",
+    "src": "assets/rooms/types/m04-01.webp",
     "cap": "Giường nhung tím",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m04-02.jpg",
+    "src": "assets/rooms/types/m04-02.webp",
     "cap": "Góc nhìn ra cửa sổ",
     "w": 1600,
     "h": 1200
@@ -236,22 +236,22 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s04-1.jpg",
+    "src": "assets/rooms/art/s04-1.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s04-2.jpg",
+    "src": "assets/rooms/art/s04-2.webp",
     "w": 720,
     "h": 405
    },
    {
-    "src": "assets/rooms/art/s04-3.jpg",
+    "src": "assets/rooms/art/s04-3.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s04-4.jpg",
+    "src": "assets/rooms/art/s04-4.webp",
     "w": 221,
     "h": 393
    },
@@ -261,7 +261,7 @@ window.LIMONI_ROOMS = [
     "h": 615
    },
    {
-    "src": "assets/rooms/art/s04-6.jpg",
+    "src": "assets/rooms/art/s04-6.webp",
     "w": 576,
     "h": 720
    }
@@ -278,52 +278,52 @@ window.LIMONI_ROOMS = [
   "room": 205,
   "type": 5,
   "typeName": "Suite Dấu ấn",
-  "plan": "assets/rooms/plans/s05.jpg",
+  "plan": "assets/rooms/plans/s05.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m05-01.jpg",
+    "src": "assets/rooms/types/m05-01.webp",
     "cap": "Góc gương & bàn trang điểm",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m05-02.jpg",
+    "src": "assets/rooms/types/m05-02.webp",
     "cap": "Sofa nhung đỏ",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m05-03.jpg",
+    "src": "assets/rooms/types/m05-03.webp",
     "cap": "Tường tranh & lối vào",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m05-04.jpg",
+    "src": "assets/rooms/types/m05-04.webp",
     "cap": "Giường canopy",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-05.jpg",
+    "src": "assets/rooms/types/m05-05.webp",
     "cap": "Giường nhìn ra ban công",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-06.jpg",
+    "src": "assets/rooms/types/m05-06.webp",
     "cap": "Khu thay đồ",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-07.jpg",
+    "src": "assets/rooms/types/m05-07.webp",
     "cap": "Phòng tắm gạch đỏ",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-08.jpg",
+    "src": "assets/rooms/types/m05-08.webp",
     "cap": "Buồng tắm kính",
     "w": 1600,
     "h": 1600
@@ -331,32 +331,32 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s05-1.jpg",
+    "src": "assets/rooms/art/s05-1.webp",
     "w": 674,
     "h": 842
    },
    {
-    "src": "assets/rooms/art/s05-2.jpg",
+    "src": "assets/rooms/art/s05-2.webp",
     "w": 516,
     "h": 773
    },
    {
-    "src": "assets/rooms/art/s05-3.jpg",
+    "src": "assets/rooms/art/s05-3.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s05-4.jpg",
+    "src": "assets/rooms/art/s05-4.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s05-5.jpg",
+    "src": "assets/rooms/art/s05-5.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s05-6.jpg",
+    "src": "assets/rooms/art/s05-6.webp",
     "w": 288,
     "h": 360
    }
@@ -373,34 +373,34 @@ window.LIMONI_ROOMS = [
   "room": 301,
   "type": 1,
   "typeName": "Xanh đêm & San hô",
-  "plan": "assets/rooms/plans/s06.jpg",
+  "plan": "assets/rooms/plans/s06.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m01-01.jpg",
+    "src": "assets/rooms/types/m01-01.webp",
     "cap": "Lối vào & tủ hành lý",
     "w": 1400,
     "h": 1400
    },
    {
-    "src": "assets/rooms/types/m01-02.jpg",
+    "src": "assets/rooms/types/m01-02.webp",
     "cap": "Cấu hình hai giường đơn",
     "w": 1600,
     "h": 1203
    },
    {
-    "src": "assets/rooms/types/m01-03.jpg",
+    "src": "assets/rooms/types/m01-03.webp",
     "cap": "Giường King",
     "w": 1600,
     "h": 1211
    },
    {
-    "src": "assets/rooms/types/m01-04.jpg",
+    "src": "assets/rooms/types/m01-04.webp",
     "cap": "Bàn trang điểm",
     "w": 1424,
     "h": 1422
    },
    {
-    "src": "assets/rooms/types/m01-05.jpg",
+    "src": "assets/rooms/types/m01-05.webp",
     "cap": "Phòng tắm",
     "w": 1400,
     "h": 1400
@@ -408,32 +408,32 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s06-1.jpg",
+    "src": "assets/rooms/art/s06-1.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s06-2.jpg",
+    "src": "assets/rooms/art/s06-2.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s06-3.jpg",
+    "src": "assets/rooms/art/s06-3.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s06-4.jpg",
+    "src": "assets/rooms/art/s06-4.webp",
     "w": 208,
     "h": 208
    },
    {
-    "src": "assets/rooms/art/s06-5.jpg",
+    "src": "assets/rooms/art/s06-5.webp",
     "w": 360,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s06-6.jpg",
+    "src": "assets/rooms/art/s06-6.webp",
     "w": 600,
     "h": 747
    }
@@ -450,22 +450,22 @@ window.LIMONI_ROOMS = [
   "room": 302,
   "type": 2,
   "typeName": "Burgundy & Phòng tranh",
-  "plan": "assets/rooms/plans/s07.jpg",
+  "plan": "assets/rooms/plans/s07.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m02-01.jpg",
+    "src": "assets/rooms/types/m02-01.webp",
     "cap": "Lối vào & tường tranh",
     "w": 1400,
     "h": 1400
    },
    {
-    "src": "assets/rooms/types/m02-02.jpg",
+    "src": "assets/rooms/types/m02-02.webp",
     "cap": "Giường nhung burgundy",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m02-03.jpg",
+    "src": "assets/rooms/types/m02-03.webp",
     "cap": "Giường & tủ áo",
     "w": 1600,
     "h": 1200
@@ -473,32 +473,32 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s07-1.jpg",
+    "src": "assets/rooms/art/s07-1.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s07-2.jpg",
+    "src": "assets/rooms/art/s07-2.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s07-3.jpg",
+    "src": "assets/rooms/art/s07-3.webp",
     "w": 734,
     "h": 413
    },
    {
-    "src": "assets/rooms/art/s07-4.jpg",
+    "src": "assets/rooms/art/s07-4.webp",
     "w": 221,
     "h": 221
    },
    {
-    "src": "assets/rooms/art/s07-5.jpg",
+    "src": "assets/rooms/art/s07-5.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s07-6.jpg",
+    "src": "assets/rooms/art/s07-6.webp",
     "w": 576,
     "h": 720
    }
@@ -515,22 +515,22 @@ window.LIMONI_ROOMS = [
   "room": 303,
   "type": 3,
   "typeName": "Phòng Tròn",
-  "plan": "assets/rooms/plans/s08.jpg",
+  "plan": "assets/rooms/plans/s08.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m03-01.jpg",
+    "src": "assets/rooms/types/m03-01.webp",
     "cap": "Hành lang vòm trưng bày",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m03-02.jpg",
+    "src": "assets/rooms/types/m03-02.webp",
     "cap": "Giường tròn với vòm canopy",
     "w": 1400,
     "h": 1400
    },
    {
-    "src": "assets/rooms/types/m03-03.jpg",
+    "src": "assets/rooms/types/m03-03.webp",
     "cap": "Giường tròn, góc nhìn khác",
     "w": 1600,
     "h": 1600
@@ -538,32 +538,32 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s08-1.jpg",
+    "src": "assets/rooms/art/s08-1.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s08-2.jpg",
+    "src": "assets/rooms/art/s08-2.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s08-3.jpg",
+    "src": "assets/rooms/art/s08-3.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s08-4.jpg",
+    "src": "assets/rooms/art/s08-4.webp",
     "w": 256,
     "h": 384
    },
    {
-    "src": "assets/rooms/art/s08-5.jpg",
+    "src": "assets/rooms/art/s08-5.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s08-6.jpg",
+    "src": "assets/rooms/art/s08-6.webp",
     "w": 672,
     "h": 840
    }
@@ -580,16 +580,16 @@ window.LIMONI_ROOMS = [
   "room": 304,
   "type": 4,
   "typeName": "Xanh Ngọc lục bảo",
-  "plan": "assets/rooms/plans/s09.jpg",
+  "plan": "assets/rooms/plans/s09.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m04-01.jpg",
+    "src": "assets/rooms/types/m04-01.webp",
     "cap": "Giường nhung tím",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m04-02.jpg",
+    "src": "assets/rooms/types/m04-02.webp",
     "cap": "Góc nhìn ra cửa sổ",
     "w": 1600,
     "h": 1200
@@ -597,32 +597,32 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s09-1.jpg",
+    "src": "assets/rooms/art/s09-1.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s09-2.jpg",
+    "src": "assets/rooms/art/s09-2.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s09-3.jpg",
+    "src": "assets/rooms/art/s09-3.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s09-4.jpg",
+    "src": "assets/rooms/art/s09-4.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s09-5.jpg",
+    "src": "assets/rooms/art/s09-5.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s09-6.jpg",
+    "src": "assets/rooms/art/s09-6.webp",
     "w": 717,
     "h": 717
    }
@@ -639,52 +639,52 @@ window.LIMONI_ROOMS = [
   "room": 305,
   "type": 5,
   "typeName": "Suite Dấu ấn",
-  "plan": "assets/rooms/plans/s10.jpg",
+  "plan": "assets/rooms/plans/s10.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m05-01.jpg",
+    "src": "assets/rooms/types/m05-01.webp",
     "cap": "Góc gương & bàn trang điểm",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m05-02.jpg",
+    "src": "assets/rooms/types/m05-02.webp",
     "cap": "Sofa nhung đỏ",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m05-03.jpg",
+    "src": "assets/rooms/types/m05-03.webp",
     "cap": "Tường tranh & lối vào",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m05-04.jpg",
+    "src": "assets/rooms/types/m05-04.webp",
     "cap": "Giường canopy",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-05.jpg",
+    "src": "assets/rooms/types/m05-05.webp",
     "cap": "Giường nhìn ra ban công",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-06.jpg",
+    "src": "assets/rooms/types/m05-06.webp",
     "cap": "Khu thay đồ",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-07.jpg",
+    "src": "assets/rooms/types/m05-07.webp",
     "cap": "Phòng tắm gạch đỏ",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-08.jpg",
+    "src": "assets/rooms/types/m05-08.webp",
     "cap": "Buồng tắm kính",
     "w": 1600,
     "h": 1600
@@ -692,7 +692,7 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s10-1.jpg",
+    "src": "assets/rooms/art/s10-1.webp",
     "w": 768,
     "h": 960
    },
@@ -702,12 +702,12 @@ window.LIMONI_ROOMS = [
     "h": 788
    },
    {
-    "src": "assets/rooms/art/s10-3.jpg",
+    "src": "assets/rooms/art/s10-3.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s10-4.jpg",
+    "src": "assets/rooms/art/s10-4.webp",
     "w": 768,
     "h": 960
    },
@@ -717,7 +717,7 @@ window.LIMONI_ROOMS = [
     "h": 308
    },
    {
-    "src": "assets/rooms/art/s10-6.jpg",
+    "src": "assets/rooms/art/s10-6.webp",
     "w": 308,
     "h": 308
    }
@@ -734,34 +734,34 @@ window.LIMONI_ROOMS = [
   "room": 401,
   "type": 1,
   "typeName": "Xanh đêm & San hô",
-  "plan": "assets/rooms/plans/s11.jpg",
+  "plan": "assets/rooms/plans/s11.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m01-01.jpg",
+    "src": "assets/rooms/types/m01-01.webp",
     "cap": "Lối vào & tủ hành lý",
     "w": 1400,
     "h": 1400
    },
    {
-    "src": "assets/rooms/types/m01-02.jpg",
+    "src": "assets/rooms/types/m01-02.webp",
     "cap": "Cấu hình hai giường đơn",
     "w": 1600,
     "h": 1203
    },
    {
-    "src": "assets/rooms/types/m01-03.jpg",
+    "src": "assets/rooms/types/m01-03.webp",
     "cap": "Giường King",
     "w": 1600,
     "h": 1211
    },
    {
-    "src": "assets/rooms/types/m01-04.jpg",
+    "src": "assets/rooms/types/m01-04.webp",
     "cap": "Bàn trang điểm",
     "w": 1424,
     "h": 1422
    },
    {
-    "src": "assets/rooms/types/m01-05.jpg",
+    "src": "assets/rooms/types/m01-05.webp",
     "cap": "Phòng tắm",
     "w": 1400,
     "h": 1400
@@ -769,17 +769,17 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s11-1.jpg",
+    "src": "assets/rooms/art/s11-1.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s11-2.jpg",
+    "src": "assets/rooms/art/s11-2.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s11-3.jpg",
+    "src": "assets/rooms/art/s11-3.webp",
     "w": 768,
     "h": 960
    },
@@ -789,7 +789,7 @@ window.LIMONI_ROOMS = [
     "h": 480
    },
    {
-    "src": "assets/rooms/art/s11-5.jpg",
+    "src": "assets/rooms/art/s11-5.webp",
     "w": 384,
     "h": 480
    },
@@ -811,22 +811,22 @@ window.LIMONI_ROOMS = [
   "room": 402,
   "type": 2,
   "typeName": "Burgundy & Phòng tranh",
-  "plan": "assets/rooms/plans/s12.jpg",
+  "plan": "assets/rooms/plans/s12.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m02-01.jpg",
+    "src": "assets/rooms/types/m02-01.webp",
     "cap": "Lối vào & tường tranh",
     "w": 1400,
     "h": 1400
    },
    {
-    "src": "assets/rooms/types/m02-02.jpg",
+    "src": "assets/rooms/types/m02-02.webp",
     "cap": "Giường nhung burgundy",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m02-03.jpg",
+    "src": "assets/rooms/types/m02-03.webp",
     "cap": "Giường & tủ áo",
     "w": 1600,
     "h": 1200
@@ -834,32 +834,32 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s12-1.jpg",
+    "src": "assets/rooms/art/s12-1.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s12-2.jpg",
+    "src": "assets/rooms/art/s12-2.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s12-3.jpg",
+    "src": "assets/rooms/art/s12-3.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s12-4.jpg",
+    "src": "assets/rooms/art/s12-4.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s12-5.jpg",
+    "src": "assets/rooms/art/s12-5.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s12-6.jpg",
+    "src": "assets/rooms/art/s12-6.webp",
     "w": 672,
     "h": 840
    }
@@ -876,22 +876,22 @@ window.LIMONI_ROOMS = [
   "room": 403,
   "type": 3,
   "typeName": "Phòng Tròn",
-  "plan": "assets/rooms/plans/s13.jpg",
+  "plan": "assets/rooms/plans/s13.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m03-01.jpg",
+    "src": "assets/rooms/types/m03-01.webp",
     "cap": "Hành lang vòm trưng bày",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m03-02.jpg",
+    "src": "assets/rooms/types/m03-02.webp",
     "cap": "Giường tròn với vòm canopy",
     "w": 1400,
     "h": 1400
    },
    {
-    "src": "assets/rooms/types/m03-03.jpg",
+    "src": "assets/rooms/types/m03-03.webp",
     "cap": "Giường tròn, góc nhìn khác",
     "w": 1600,
     "h": 1600
@@ -899,32 +899,32 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s13-1.jpg",
+    "src": "assets/rooms/art/s13-1.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s13-2.jpg",
+    "src": "assets/rooms/art/s13-2.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s13-3.jpg",
+    "src": "assets/rooms/art/s13-3.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s13-4.jpg",
+    "src": "assets/rooms/art/s13-4.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s13-5.jpg",
+    "src": "assets/rooms/art/s13-5.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s13-6.jpg",
+    "src": "assets/rooms/art/s13-6.webp",
     "w": 576,
     "h": 720
    }
@@ -941,16 +941,16 @@ window.LIMONI_ROOMS = [
   "room": 404,
   "type": 4,
   "typeName": "Xanh Ngọc lục bảo",
-  "plan": "assets/rooms/plans/s14.jpg",
+  "plan": "assets/rooms/plans/s14.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m04-01.jpg",
+    "src": "assets/rooms/types/m04-01.webp",
     "cap": "Giường nhung tím",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m04-02.jpg",
+    "src": "assets/rooms/types/m04-02.webp",
     "cap": "Góc nhìn ra cửa sổ",
     "w": 1600,
     "h": 1200
@@ -958,17 +958,17 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s14-1.jpg",
+    "src": "assets/rooms/art/s14-1.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s14-2.jpg",
+    "src": "assets/rooms/art/s14-2.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s14-3.jpg",
+    "src": "assets/rooms/art/s14-3.webp",
     "w": 768,
     "h": 960
    },
@@ -978,12 +978,12 @@ window.LIMONI_ROOMS = [
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s14-5.jpg",
+    "src": "assets/rooms/art/s14-5.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s14-6.jpg",
+    "src": "assets/rooms/art/s14-6.webp",
     "w": 576,
     "h": 720
    }
@@ -1000,52 +1000,52 @@ window.LIMONI_ROOMS = [
   "room": 405,
   "type": 5,
   "typeName": "Suite Dấu ấn",
-  "plan": "assets/rooms/plans/s15.jpg",
+  "plan": "assets/rooms/plans/s15.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m05-01.jpg",
+    "src": "assets/rooms/types/m05-01.webp",
     "cap": "Góc gương & bàn trang điểm",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m05-02.jpg",
+    "src": "assets/rooms/types/m05-02.webp",
     "cap": "Sofa nhung đỏ",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m05-03.jpg",
+    "src": "assets/rooms/types/m05-03.webp",
     "cap": "Tường tranh & lối vào",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m05-04.jpg",
+    "src": "assets/rooms/types/m05-04.webp",
     "cap": "Giường canopy",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-05.jpg",
+    "src": "assets/rooms/types/m05-05.webp",
     "cap": "Giường nhìn ra ban công",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-06.jpg",
+    "src": "assets/rooms/types/m05-06.webp",
     "cap": "Khu thay đồ",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-07.jpg",
+    "src": "assets/rooms/types/m05-07.webp",
     "cap": "Phòng tắm gạch đỏ",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-08.jpg",
+    "src": "assets/rooms/types/m05-08.webp",
     "cap": "Buồng tắm kính",
     "w": 1600,
     "h": 1600
@@ -1053,32 +1053,32 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s15-1.jpg",
+    "src": "assets/rooms/art/s15-1.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s15-2.jpg",
+    "src": "assets/rooms/art/s15-2.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s15-3.jpg",
+    "src": "assets/rooms/art/s15-3.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s15-4.jpg",
+    "src": "assets/rooms/art/s15-4.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s15-5.jpg",
+    "src": "assets/rooms/art/s15-5.webp",
     "w": 308,
     "h": 308
    },
    {
-    "src": "assets/rooms/art/s15-6.jpg",
+    "src": "assets/rooms/art/s15-6.webp",
     "w": 288,
     "h": 360
    }
@@ -1095,34 +1095,34 @@ window.LIMONI_ROOMS = [
   "room": 501,
   "type": 1,
   "typeName": "Xanh đêm & San hô",
-  "plan": "assets/rooms/plans/s16.jpg",
+  "plan": "assets/rooms/plans/s16.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m01-01.jpg",
+    "src": "assets/rooms/types/m01-01.webp",
     "cap": "Lối vào & tủ hành lý",
     "w": 1400,
     "h": 1400
    },
    {
-    "src": "assets/rooms/types/m01-02.jpg",
+    "src": "assets/rooms/types/m01-02.webp",
     "cap": "Cấu hình hai giường đơn",
     "w": 1600,
     "h": 1203
    },
    {
-    "src": "assets/rooms/types/m01-03.jpg",
+    "src": "assets/rooms/types/m01-03.webp",
     "cap": "Giường King",
     "w": 1600,
     "h": 1211
    },
    {
-    "src": "assets/rooms/types/m01-04.jpg",
+    "src": "assets/rooms/types/m01-04.webp",
     "cap": "Bàn trang điểm",
     "w": 1424,
     "h": 1422
    },
    {
-    "src": "assets/rooms/types/m01-05.jpg",
+    "src": "assets/rooms/types/m01-05.webp",
     "cap": "Phòng tắm",
     "w": 1400,
     "h": 1400
@@ -1130,32 +1130,32 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s16-1.jpg",
+    "src": "assets/rooms/art/s16-1.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s16-2.jpg",
+    "src": "assets/rooms/art/s16-2.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s16-3.jpg",
+    "src": "assets/rooms/art/s16-3.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s16-4.jpg",
+    "src": "assets/rooms/art/s16-4.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s16-5.jpg",
+    "src": "assets/rooms/art/s16-5.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s16-6.jpg",
+    "src": "assets/rooms/art/s16-6.webp",
     "w": 576,
     "h": 720
    }
@@ -1172,22 +1172,22 @@ window.LIMONI_ROOMS = [
   "room": 502,
   "type": 2,
   "typeName": "Burgundy & Phòng tranh",
-  "plan": "assets/rooms/plans/s17.jpg",
+  "plan": "assets/rooms/plans/s17.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m02-01.jpg",
+    "src": "assets/rooms/types/m02-01.webp",
     "cap": "Lối vào & tường tranh",
     "w": 1400,
     "h": 1400
    },
    {
-    "src": "assets/rooms/types/m02-02.jpg",
+    "src": "assets/rooms/types/m02-02.webp",
     "cap": "Giường nhung burgundy",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m02-03.jpg",
+    "src": "assets/rooms/types/m02-03.webp",
     "cap": "Giường & tủ áo",
     "w": 1600,
     "h": 1200
@@ -1195,27 +1195,27 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s17-1.jpg",
+    "src": "assets/rooms/art/s17-1.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s17-2.jpg",
+    "src": "assets/rooms/art/s17-2.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s17-3.jpg",
+    "src": "assets/rooms/art/s17-3.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s17-4.jpg",
+    "src": "assets/rooms/art/s17-4.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s17-5.jpg",
+    "src": "assets/rooms/art/s17-5.webp",
     "w": 288,
     "h": 360
    },
@@ -1237,22 +1237,22 @@ window.LIMONI_ROOMS = [
   "room": 503,
   "type": 3,
   "typeName": "Phòng Tròn",
-  "plan": "assets/rooms/plans/s18.jpg",
+  "plan": "assets/rooms/plans/s18.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m03-01.jpg",
+    "src": "assets/rooms/types/m03-01.webp",
     "cap": "Hành lang vòm trưng bày",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m03-02.jpg",
+    "src": "assets/rooms/types/m03-02.webp",
     "cap": "Giường tròn với vòm canopy",
     "w": 1400,
     "h": 1400
    },
    {
-    "src": "assets/rooms/types/m03-03.jpg",
+    "src": "assets/rooms/types/m03-03.webp",
     "cap": "Giường tròn, góc nhìn khác",
     "w": 1600,
     "h": 1600
@@ -1260,7 +1260,7 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s18-1.jpg",
+    "src": "assets/rooms/art/s18-1.webp",
     "w": 672,
     "h": 840
    },
@@ -1270,22 +1270,22 @@ window.LIMONI_ROOMS = [
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s18-3.jpg",
+    "src": "assets/rooms/art/s18-3.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s18-4.jpg",
+    "src": "assets/rooms/art/s18-4.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s18-5.jpg",
+    "src": "assets/rooms/art/s18-5.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s18-6.jpg",
+    "src": "assets/rooms/art/s18-6.webp",
     "w": 576,
     "h": 720
    }
@@ -1302,16 +1302,16 @@ window.LIMONI_ROOMS = [
   "room": 504,
   "type": 4,
   "typeName": "Xanh Ngọc lục bảo",
-  "plan": "assets/rooms/plans/s19.jpg",
+  "plan": "assets/rooms/plans/s19.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m04-01.jpg",
+    "src": "assets/rooms/types/m04-01.webp",
     "cap": "Giường nhung tím",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m04-02.jpg",
+    "src": "assets/rooms/types/m04-02.webp",
     "cap": "Góc nhìn ra cửa sổ",
     "w": 1600,
     "h": 1200
@@ -1319,32 +1319,32 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s19-1.jpg",
+    "src": "assets/rooms/art/s19-1.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s19-2.jpg",
+    "src": "assets/rooms/art/s19-2.webp",
     "w": 672,
     "h": 840
    },
    {
-    "src": "assets/rooms/art/s19-3.jpg",
+    "src": "assets/rooms/art/s19-3.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s19-4.jpg",
+    "src": "assets/rooms/art/s19-4.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s19-5.jpg",
+    "src": "assets/rooms/art/s19-5.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s19-6.jpg",
+    "src": "assets/rooms/art/s19-6.webp",
     "w": 576,
     "h": 720
    }
@@ -1361,52 +1361,52 @@ window.LIMONI_ROOMS = [
   "room": 505,
   "type": 5,
   "typeName": "Suite Dấu ấn",
-  "plan": "assets/rooms/plans/s20.jpg",
+  "plan": "assets/rooms/plans/s20.webp",
   "photos": [
    {
-    "src": "assets/rooms/types/m05-01.jpg",
+    "src": "assets/rooms/types/m05-01.webp",
     "cap": "Góc gương & bàn trang điểm",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m05-02.jpg",
+    "src": "assets/rooms/types/m05-02.webp",
     "cap": "Sofa nhung đỏ",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m05-03.jpg",
+    "src": "assets/rooms/types/m05-03.webp",
     "cap": "Tường tranh & lối vào",
     "w": 1600,
     "h": 1600
    },
    {
-    "src": "assets/rooms/types/m05-04.jpg",
+    "src": "assets/rooms/types/m05-04.webp",
     "cap": "Giường canopy",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-05.jpg",
+    "src": "assets/rooms/types/m05-05.webp",
     "cap": "Giường nhìn ra ban công",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-06.jpg",
+    "src": "assets/rooms/types/m05-06.webp",
     "cap": "Khu thay đồ",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-07.jpg",
+    "src": "assets/rooms/types/m05-07.webp",
     "cap": "Phòng tắm gạch đỏ",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "assets/rooms/types/m05-08.jpg",
+    "src": "assets/rooms/types/m05-08.webp",
     "cap": "Buồng tắm kính",
     "w": 1600,
     "h": 1600
@@ -1414,32 +1414,32 @@ window.LIMONI_ROOMS = [
   ],
   "art": [
    {
-    "src": "assets/rooms/art/s20-1.jpg",
+    "src": "assets/rooms/art/s20-1.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s20-2.jpg",
+    "src": "assets/rooms/art/s20-2.webp",
     "w": 576,
     "h": 720
    },
    {
-    "src": "assets/rooms/art/s20-3.jpg",
+    "src": "assets/rooms/art/s20-3.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s20-4.jpg",
+    "src": "assets/rooms/art/s20-4.webp",
     "w": 768,
     "h": 960
    },
    {
-    "src": "assets/rooms/art/s20-5.jpg",
+    "src": "assets/rooms/art/s20-5.webp",
     "w": 288,
     "h": 360
    },
    {
-    "src": "assets/rooms/art/s20-6.jpg",
+    "src": "assets/rooms/art/s20-6.webp",
     "w": 288,
     "h": 360
    }
