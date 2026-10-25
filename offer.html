@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ưu đãi · LIMONI</title>
+<link rel="alternate" hreflang="vi" href="offer.html">
+<link rel="alternate" hreflang="en" href="en/offer.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=EB+Garamond&family=Montserrat:wght@600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<link rel="preload" as="image" href="assets/rooftop-dining.jpg" fetchpriority="high">
+<style>html.pt-enter body::after{content:"";position:fixed;inset:0;z-index:2147483000;background:#6a0f26}</style><script>try{if("scrollRestoration" in history)history.scrollRestoration="manual";if(sessionStorage.getItem("limoni-pt")){document.documentElement.classList.add("pt-enter")}}catch(e){}</script>
+<meta name="limoni-heroes" content='{"index.html": "assets/hero-home.jpg", "about.html": "assets/about-hero.jpg", "about-v1.html": "assets/about-hero.jpg", "rooms.html": "assets/rooms-hero.jpg", "anfora.html": "assets/anfora-hero.jpg", "contact.html": "assets/contact-hero.jpg", "offer.html": "assets/rooftop-dining.jpg"}'>
+</head>
+<body>
+
+<!-- 01 Header (fixed) -->
+<header class="site-header" id="header">
+  <button class="hdr-btn" type="button" id="menuOpen" aria-expanded="false" aria-controls="menu">
+    <svg viewBox="0 0 28 8" aria-hidden="true"><path d="M0 1h28M0 7h28" stroke="currentColor" stroke-width="1.5"/></svg>
+    <span class="btn-label">Menu</span>
+  </button>
+  <a class="logo" href="index.html" aria-label="LIMONI, về trang chủ">
+    <span class="logo-text">LIMONI</span>
+    <img class="logo-full" src="assets/logo-limoni-cream.png" alt="" onerror="this.parentNode.classList.add('noimg');this.remove()">
+    <img class="logo-mark" src="assets/logo-limoni-monogram-cream.png" alt="">
+  </a>
+  <a class="hdr-btn" href="contact.html#dat-phong"><span class="btn-label">Đặt phòng</span></a>
+</header>
+
+<div class="menu-panel" id="menu" aria-hidden="true" inert>
+  <div class="menu-main">
+  <div class="menu-top">
+  <button class="hdr-btn" type="button" id="menuClose">
+    <svg class="icon-close" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
+    <span class="btn-label">Đóng</span>
+  </button>
+  <div class="lang-switch" role="group" aria-label="Ngôn ngữ / Language">
+    <a href="#" hreflang="vi" lang="vi" aria-current="true">VN</a>
+    <a href="en/offer.html" hreflang="en" lang="en">ENG</a>
+  </div>
+  </div>
+  <nav aria-label="Điều hướng chính">
+    <a href="index.html" style="--i:1"><span>Trang chủ</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="about.html" style="--i:2"><span>Về LIMONI</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="rooms.html" style="--i:3"><span>Phòng nghỉ</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="anfora.html" style="--i:4"><span>ANFORA</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="contact.html" style="--i:5"><span>Liên hệ</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="offer.html" style="--i:6" aria-current="page"><span>Ưu đãi</span><span class="arrow" aria-hidden="true">→</span></a>
+  </nav>
+  </div>
+  <div class="menu-photo"><img src="assets/menu-room.jpg" alt="Phòng Suite Dấu ấn với giường canopy buông rèm" decoding="async"></div>
+  <div class="menu-foot" style="--i:6">
+    <span>62-64 Đại Lộ An Thới, Đặc khu Phú Quốc, Tỉnh An Giang, Việt Nam</span>
+    <a href="tel:+84348779988">+84 348 779 988</a>
+    <a href="mailto:info@limoniboutiquehotel.com">info@limoniboutiquehotel.com</a>
+  </div>
+</div>
+
+<main id="top" class="page-offer">
+  <!-- Hero -->
+  <section class="phero bottom-split">
+    <div class="ph" data-label="Ưu đãi"><img src="assets/rooftop-dining.jpg" alt="Hoàng hôn trên tầng thượng LIMONI" style="object-position: 50% 50%;"></div>
+    <div class="phero-inner">
+      <h1>Ưu đãi<br>khi đặt trực tiếp</h1>
+      <p class="lede">Những đặc quyền dành riêng cho khách đặt phòng qua website LIMONI. Liên hệ trực tiếp với chúng tôi, bạn luôn nhận mức giá tốt nhất cùng những ưu đãi không có trên các kênh khác.</p>
+    </div>
+  </section>
+
+
+  <!-- Các ưu đãi: carousel vòng lặp 3 ưu đãi (Figma 251:211) -->
+  <section class="offers" id="uu-dai" aria-roledescription="carousel" aria-label="Các ưu đãi khi đặt trực tiếp">
+    <div class="offers-head">
+      <h2 class="offers-title">Ưu đãi <em>dành riêng cho bạn</em></h2>
+      <p class="offers-sub">Hãy chọn ưu đãi phù hợp với kỳ nghỉ của bạn.</p>
+    </div>
+    <div class="offers-list">
+      <article class="offer-item">
+        <div class="offer-text ticket">
+          <i class="tk-cut c1"></i><i class="tk-cut c3"></i><i class="tk-cut n1"></i><i class="tk-cut n2"></i>
+          <div class="tk-main">
+            <p class="tk-tag">LIMONI · Early Booking</p>
+            <p class="tk-value"><span>Giảm 15%</span><span>+ nâng 1 hạng phòng</span></p>
+            <h2 class="tk-title" aria-label="Đặt sớm, ưu đãi hơn"><span>Đặt sớm,</span><span>ưu đãi hơn</span></h2>
+            <p class="tk-body">Đặt phòng trực tiếp qua website và trước ngày nhận phòng ít nhất 30 ngày, bạn nhận ngay ưu đãi giảm 15%, kèm một lần nâng hạng phòng miễn phí lên hạng cao hơn (tùy tình trạng phòng trống). Lên kế hoạch càng sớm, kỳ nghỉ càng trọn vẹn.</p>
+          </div>
+          <a class="tk-stub" href="contact.html?offer=Early%20Booking#dat-phong" data-offer="Early Booking" aria-label="Đặt phòng với ưu đãi Early Booking">
+            <i class="tk-cut c2"></i><i class="tk-cut c4"></i>
+            <span class="tk-stub-a">Early Booking</span>
+            <span class="tk-stub-b">Trước ≥ 30 ngày</span>
+            <span class="tk-code" aria-hidden="true"></span>
+            <span class="tk-book">Đặt phòng →</span>
+          </a>
+        </div>
+      </article>
+      <article class="offer-item">
+        <div class="offer-text ticket">
+          <i class="tk-cut c1"></i><i class="tk-cut c3"></i><i class="tk-cut n1"></i><i class="tk-cut n2"></i>
+          <div class="tk-main">
+            <p class="tk-tag">LIMONI · Long Stay</p>
+            <p class="tk-value"><span>Giảm 20%</span><span>từ đêm thứ 6</span></p>
+            <h2 class="tk-title" aria-label="Ở lâu hơn, tận hưởng nhiều hơn"><span>Ở lâu hơn,</span><span>tận hưởng nhiều hơn</span></h2>
+            <p class="tk-body">Khi đặt trực tiếp qua website và lưu trú từ 5 đêm trở lên, bạn được nâng hạng phòng miễn phí lên hạng cao hơn cho suốt kỳ nghỉ, và giảm 20% cho mỗi đêm kể từ đêm thứ sáu. Thời gian để sống chậm nơi đảo ngọc.</p>
+          </div>
+          <a class="tk-stub" href="contact.html?offer=Long%20Stay#dat-phong" data-offer="Long Stay" aria-label="Đặt phòng với ưu đãi Long Stay">
+            <i class="tk-cut c2"></i><i class="tk-cut c4"></i>
+            <span class="tk-stub-a">Long Stay</span>
+            <span class="tk-stub-b">Từ 5 đêm</span>
+            <span class="tk-code" aria-hidden="true"></span>
+            <span class="tk-book">Đặt phòng →</span>
+          </a>
+        </div>
+      </article>
+      <article class="offer-item">
+        <div class="offer-text ticket">
+          <i class="tk-cut c1"></i><i class="tk-cut c3"></i><i class="tk-cut n1"></i><i class="tk-cut n2"></i>
+          <div class="tk-main">
+            <p class="tk-tag">LIMONI · Look No Further</p>
+            <p class="tk-value"><span>Giảm ≥ 10%</span><span>so với mọi kênh khác</span></p>
+            <h2 class="tk-title" aria-label="Không đâu rẻ hơn"><span>Không đâu</span><span>rẻ hơn</span></h2>
+            <p class="tk-body">Đặt phòng trực tiếp trên website LIMONI, bạn luôn nhận mức giá tốt nhất, giảm ít nhất 10% so với mọi kênh đặt phòng khác.</p>
+          </div>
+          <a class="tk-stub" href="contact.html?offer=Look%20No%20Further#dat-phong" data-offer="Look No Further" aria-label="Đặt phòng với ưu đãi Look No Further">
+            <i class="tk-cut c2"></i><i class="tk-cut c4"></i>
+            <span class="tk-stub-a">Best Rate</span>
+            <span class="tk-stub-b">Đặt trực tiếp</span>
+            <span class="tk-code" aria-hidden="true"></span>
+            <span class="tk-book">Đặt phòng →</span>
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 08 Break — booking bar -->
+  <section class="booking" id="booking">
+    <div class="booking-row">
+      <h2 class="stack">
+        <span class="display">Sẵn sàng cho</span>
+        <span class="display indent">câu chuyện của bạn?</span>
+      </h2>
+      <div class="booking-side">
+        <p class="body">Đặt phòng trực tiếp để nhận trọn ưu đãi. Các ưu đãi áp dụng khi đặt qua website và tùy tình trạng phòng trống; vui lòng liên hệ LIMONI nếu cần hỗ trợ.</p>
+      </div>
+    </div>
+    <form class="booking-form" id="bookingForm" novalidate>
+      <div class="field">
+        <label class="eyebrow" for="checkin">Nhận phòng</label>
+        <div class="control">
+          <input type="date" id="checkin" name="checkin" required>
+          <svg viewBox="0 0 18 18" aria-hidden="true" fill="none" stroke="#242424" stroke-width="1.2"><rect x="2" y="3.5" width="14" height="12.5"/><path d="M2 7.5h14M6 1.5v4M12 1.5v4"/></svg>
+        </div>
+      </div>
+      <div class="field">
+        <label class="eyebrow" for="checkout">Trả phòng</label>
+        <div class="control">
+          <input type="date" id="checkout" name="checkout" required>
+          <svg viewBox="0 0 18 18" aria-hidden="true" fill="none" stroke="#242424" stroke-width="1.2"><rect x="2" y="3.5" width="14" height="12.5"/><path d="M2 7.5h14M6 1.5v4M12 1.5v4"/></svg>
+        </div>
+      </div>
+      <div class="field">
+        <label class="eyebrow" for="adults">Người lớn</label>
+        <div class="control">
+          <select id="adults" name="adults">
+            <option value="1">1 người lớn</option>
+            <option value="2" selected>2 người lớn</option>
+            <option value="3">3 người lớn</option>
+            <option value="4">4 người lớn</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label class="eyebrow" for="children">Trẻ em</label>
+        <div class="control">
+          <select id="children" name="children">
+            <option value="0" selected>0 trẻ em</option>
+            <option value="1">1 trẻ em</option>
+            <option value="2">2 trẻ em</option>
+            <option value="3">3 trẻ em</option>
+          </select>
+        </div>
+      </div>
+      <button class="btn" type="submit"><span class="btn-label">Đặt phòng</span></button>
+    </form>
+    <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+  </section>
+
+</main>
+
+<!-- 09 Footer -->
+<footer class="footer" id="contact">
+  <div class="foot-cols">
+    <div class="foot-col contact">
+      <h4>Liên hệ</h4>
+      <ul>
+        <li>62-64 Đại Lộ An Thới, Đặc khu Phú Quốc, Tỉnh An Giang, Việt Nam</li>
+        <li><a href="tel:+84348779988">+84 348 779 988</a></li>
+        <li><a href="mailto:info@limoniboutiquehotel.com">info@limoniboutiquehotel.com</a></li>
+      </ul>
+    </div>
+    <div class="foot-right">
+      <div class="foot-col">
+        <h4>Khám phá</h4>
+        <ul>
+          <li><a href="about.html">Về LIMONI</a></li>
+          <li><a href="rooms.html">Phòng nghỉ</a></li>
+          <li><a href="anfora.html">ANFORA</a></li>
+          <li><a href="contact.html">Liên hệ</a></li>
+          <li><a href="offer.html">Ưu đãi</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Mạng xã hội</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/limoni.phuquoc/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61594159388135" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://wa.me/84348779988" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://zalo.me/0348779988" target="_blank" rel="noopener">Zalo</a></li>
+          <li><a href="https://maps.app.goo.gl/qTBAm2a1SExUdG5G9" target="_blank" rel="noopener">Google Maps</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="wordmark" aria-hidden="true">LIMONI</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

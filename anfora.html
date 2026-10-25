@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nhà hàng ANFORA · LIMONI</title>
+<link rel="alternate" hreflang="vi" href="anfora.html">
+<link rel="alternate" hreflang="en" href="en/anfora.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=EB+Garamond&family=Montserrat:wght@600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<link rel="preload" as="image" href="assets/anfora-hero.jpg" fetchpriority="high">
+<style>html.pt-enter body::after{content:"";position:fixed;inset:0;z-index:2147483000;background:#6a0f26}</style><script>try{if("scrollRestoration" in history)history.scrollRestoration="manual";if(sessionStorage.getItem("limoni-pt")){document.documentElement.classList.add("pt-enter")}}catch(e){}</script>
+<meta name="limoni-heroes" content='{"index.html": "assets/hero-home.jpg", "about.html": "assets/about-hero.jpg", "about-v1.html": "assets/about-hero.jpg", "rooms.html": "assets/rooms-hero.jpg", "anfora.html": "assets/anfora-hero.jpg", "contact.html": "assets/contact-hero.jpg", "offer.html": "assets/rooftop-dining.jpg"}'>
+</head>
+<body>
+
+<!-- 01 Header (fixed) -->
+<header class="site-header hdr-anfora" id="header">
+  <button class="hdr-btn" type="button" id="menuOpen" aria-expanded="false" aria-controls="menu">
+    <svg viewBox="0 0 28 8" aria-hidden="true"><path d="M0 1h28M0 7h28" stroke="currentColor" stroke-width="1.5"/></svg>
+    <span class="btn-label">Menu</span>
+  </button>
+  <a class="logo" href="index.html" aria-label="LIMONI, về trang chủ">
+    <span class="logo-text">ANFORA</span>
+    <img class="logo-full" src="assets/logo-anfora-cream.png" alt="" onerror="this.parentNode.classList.add('noimg');this.remove()">
+    <img class="logo-mark" src="assets/logo-anfora-mark-cream.png" alt="">
+  </a>
+  <div class="hdr-right"><a class="hdr-btn" href="#menu-list"><span class="btn-label">Thực đơn</span></a><a class="hdr-btn" href="#dat-ban"><span class="btn-label">Đặt bàn</span></a></div>
+</header>
+
+<div class="menu-panel" id="menu" aria-hidden="true" inert>
+  <div class="menu-main">
+  <div class="menu-top">
+  <button class="hdr-btn" type="button" id="menuClose">
+    <svg class="icon-close" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
+    <span class="btn-label">Đóng</span>
+  </button>
+  <div class="lang-switch" role="group" aria-label="Ngôn ngữ / Language">
+    <a href="#" hreflang="vi" lang="vi" aria-current="true">VN</a>
+    <a href="en/anfora.html" hreflang="en" lang="en">ENG</a>
+  </div>
+  </div>
+  <nav aria-label="Điều hướng chính">
+    <a href="index.html" style="--i:1"><span>Trang chủ</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="about.html" style="--i:2"><span>Về LIMONI</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="rooms.html" style="--i:3"><span>Phòng nghỉ</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="anfora.html" style="--i:4" aria-current="page"><span>ANFORA</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="contact.html" style="--i:5"><span>Liên hệ</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="offer.html" style="--i:6"><span>Ưu đãi</span><span class="arrow" aria-hidden="true">→</span></a>
+  </nav>
+  </div>
+  <div class="menu-photo"><img src="assets/menu-room.jpg" alt="Phòng Suite Dấu ấn với giường canopy buông rèm" decoding="async"></div>
+  <div class="menu-foot" style="--i:6">
+    <span>62-64 Đại Lộ An Thới, Đặc khu Phú Quốc, Tỉnh An Giang, Việt Nam</span>
+    <a href="tel:+84348779988">+84 348 779 988</a>
+    <a href="mailto:info@limoniboutiquehotel.com">info@limoniboutiquehotel.com</a>
+  </div>
+</div>
+
+<main id="top" class="page-anfora">
+  <!-- Hero -->
+  <section class="phero middle dim">
+    <div class="ph" data-label="Hero"><img src="assets/anfora-hero.jpg" alt="Quầy đón khách và khu lounge của nhà hàng ANFORA" style="object-position: 55% 50%;"></div>
+    <div class="phero-inner">
+      <h1>ANFORA<br><em>(by LIMONI)</em></h1>
+      <p class="lede">Nhà hàng Ý Fusion ở tầng 1 và tầng thượng, nơi những nguyên liệu tự nhiên của Phú Quốc hòa cùng phong cách hào sảng của ẩm thực Ý và Địa Trung Hải, trong không gian sang trọng và cởi mở, tạo nên một điểm đến ẩm thực độc bản ở phía Nam đảo Ngọc. Nơi dành cho những người sành ăn và những tâm hồn lãng mạn.</p>
+    </div>
+  </section>
+
+  <!-- Ảnh quầy bar -->
+  <section class="wide-img" style="padding-top: var(--gutter);" aria-hidden="true">
+    <div class="ph"><img src="assets/anfora-wide.jpg" alt="" loading="lazy"></div>
+  </section>
+
+  <!-- Anfora · Chum rượu cổ -->
+  <section class="split on-light">
+    <div class="copy">
+      <h2 class="stack">
+        <span class="display" data-reveal>Anfora</span>
+        <em class="display indent" data-reveal style="--d:.08s">Chum rượu cổ</em>
+      </h2>
+      <div class="body" data-reveal style="--d:.16s">
+        <p>Amphora là bình gốm hai quai của người Hy Lạp và La Mã cổ, dùng đựng rượu vang và dầu ô liu. Chiếc bình ấy mở ra câu chuyện thị giác cho nhà hàng: căn bếp mở kết nối không gian nấu nướng với khu thưởng thức, quầy bar gọn gàng trên nền mặt đá cao cấp, đối diện là tủ rượu được chọn lọc tỉ mỉ, tạo nên một khu trưng bày dễ nhớ và dễ kể lại.</p>
+        <p>Kế thừa tinh thần LIMONI, "những trái chanh vàng" của Địa Trung Hải, ANFORA là chương ẩm thực của thương hiệu.</p>
+      </div>
+    </div>
+    <div class="ph tall"><img src="assets/anfora-1.jpg" alt="Tủ rượu dạng vòm và thang xoắn" loading="lazy"></div>
+  </section>
+
+  <!-- Hương vị của Cảm xúc -->
+  <section class="rosso-band navy-band">
+    <div class="band-head">
+      <h2 class="stack">
+        <span class="display" data-reveal>Hương vị</span>
+        <span class="display indent" data-reveal style="--d:.08s">của</span>
+        <em class="display" data-reveal style="--d:.16s">Cảm xúc</em>
+      </h2>
+      <div class="body" data-reveal style="--d:.24s">
+        <p>Bếp mở và quầy bar nằm ngay trong không gian dùng bữa, để bạn có thể ngắm nhìn từng món ăn được chế biến, từng thức uống được pha chế. Dù là bữa sáng giàu năng lượng, ly cà phê pha chậm hay bữa tối thân tình, chỗ ngồi thoải mái cùng không gian thư thái luôn mời bạn nán lại lâu hơn, thong thả trò chuyện và bỏ qua mọi rào cản để sẻ chia những tâm tư, tình cảm với những người thân yêu bên cạnh.</p>
+      </div>
+    </div>
+    <div class="strip" tabindex="0" aria-label="Ảnh phòng ăn ANFORA, cuộn ngang để xem thêm">
+      <div class="ph w-wide"><img src="assets/g-07.jpg" alt="Phòng ăn, khung hình rộng" loading="lazy"></div>
+      <div class="ph w-wide"><img src="assets/g-08.jpg" alt="Nhà hàng và quầy bar nhìn từ xa" loading="lazy"></div>
+      <div class="ph w-wide"><img src="assets/g-02.jpg" alt="Quầy đón khách và khu lounge" loading="lazy"></div>
+      <div class="ph w-wide"><img src="assets/g-05.jpg" alt="Quầy bar với ghế cao và kệ rượu" loading="lazy"></div>
+      <div class="ph w-wide"><img src="assets/g-03.jpg" alt="Phòng ăn chính với bàn tròn" loading="lazy"></div>
+      <div class="ph w-narrow"><img src="assets/g-06.jpg" alt="Tủ rượu dạng vòm" loading="lazy"></div>
+    </div>
+    <p class="strip-hint" aria-hidden="true">Kéo để xem thêm →</p>
+  </section>
+
+  <!-- Triết lý ẩm thực -->
+  <section class="philosophy on-light" id="menu-list">
+    <div class="left">
+      <h2 class="stack">
+        <span class="display" data-reveal>Triết lý</span>
+        <em class="display indent" data-reveal style="--d:.08s">ẩm thực</em>
+      </h2>
+      <div class="rule-text">
+        <div class="rt">
+          <p>Steak và hải sản địa phương, pizza và pasta kiểu Ý, tráng miệng mát lành. Thực đơn có món chay xuyên suốt.</p>
+          <a href="contact.html#dat-phong">Chi tiết Menu →</a>
+        </div>
+      </div>
+    </div>
+    <div class="menu-list" aria-label="Triết lý ẩm thực của ANFORA">
+      <div class="num-box">
+        <p class="num">1.</p>
+        <div class="nb-body">
+          <h3>Ẩm thực Fusion Địa Trung Hải</h3>
+          <p>Chúng tôi tìm thấy cảm hứng từ tinh thần phóng khoáng của ẩm thực Địa Trung Hải, nơi nguyên liệu tươi ngon và hương vị tự nhiên luôn là tâm điểm. Kết hợp nét tinh tế ấy với nguyên liệu bản địa và cách chế biến sáng tạo, mỗi món ăn mở ra một cuộc gặp gỡ giữa các nền văn hóa — mới mẻ nhưng hài hòa, giản dị mà đầy dấu ấn.</p>
+        </div>
+      </div>
+      <div class="num-box">
+        <p class="num">2.</p>
+        <div class="nb-body">
+          <h3>Hải sản tươi sống Phú Quốc</h3>
+          <p>Với chúng tôi, hương vị biển đảo bắt đầu từ nguồn hải sản tươi sống của Phú Quốc. Tôn trọng vị ngọt tự nhiên và đặc tính riêng của từng nguyên liệu, chúng tôi lựa chọn cách chế biến vừa đủ để làm nổi bật sự tươi ngon, thay vì lấn át bằng gia vị. Mỗi món ăn là lời kể mộc mạc về biển, mang tinh thần và sự trù phú của đảo ngọc đến bàn ăn.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Không gian riêng tư (VIP Rooftop) -->
+  <section class="rooftop">
+    <div class="rooftop-top">
+      <div class="copy">
+        <h2 class="stack">
+          <span class="display" data-reveal>Không gian</span>
+          <em class="display indent" data-reveal style="--d:.08s">riêng tư</em>
+        </h2>
+        <div class="body" data-reveal style="--d:.16s">
+          <p>VIP Rooftop là không gian riêng tư trên tầng mái, dành cho những buổi gặp gỡ thân mật của nhóm 10–20 khách. Dịch vụ ẩm thực chỉ phục vụ khi đặt trước, với set menu được chọn từ thực đơn ANFORA cùng các món đặc biệt, do đội ngũ bếp của nhà hàng trực tiếp chế biến.</p>
+          <p>Bạn cũng có thể ghé rooftop để thưởng thức cà phê, thư giãn và thong thả trò chuyện trong không gian thoáng đãng.</p>
+        </div>
+      </div>
+      <div class="ph"><img src="assets/rooftop-stair.jpg" alt="Thang xoắn đỏ dẫn lên sàn vọng cảnh" loading="lazy" style="object-position: 50% 55%;"></div>
+    </div>
+    <div class="ph"><img src="assets/rooftop-dining.jpg" alt="Khu bàn ăn ngoài trời dưới ô dù trên tầng mái" loading="lazy"></div>
+  </section>
+
+  <!-- Câu hỏi thường gặp -->
+  <section class="faq on-light" id="faq">
+    <div class="faq-head">
+      <h2>Những câu hỏi<br><em>thường gặp</em></h2>
+    </div>
+    <div class="faq-body">
+      <p>Tất cả những điều bạn cần biết trước khi tới.</p>
+      <div class="faq-list" data-accordion="single">
+        <div class="acc-item open">
+          <button class="acc-head" type="button" aria-expanded="true" aria-controls="faq-anfora-1">Tôi nên đặt bàn trước như thế nào?<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-anfora-1"><div><p>Quý khách vui lòng liên hệ nhà hàng để được tư vấn đặt bàn. Hãy cho biết ngày, giờ, số lượng khách và yêu cầu đặc biệt để chúng tôi hỗ trợ kiểm tra chỗ phù hợp.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-anfora-2">Nhà hàng phục vụ những món ăn nào?<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-anfora-2"><div><p>ANFORA phục vụ ẩm thực fusion Địa Trung Hải cùng hải sản tươi sống Phú Quốc, từ cà phê sáng đến bữa tối với rượu vang. Thực đơn có món chay xuyên suốt.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-anfora-3">Tôi có thể yêu cầu món chay hoặc báo dị ứng không?<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-anfora-3"><div><p>Có. Quý khách vui lòng báo trước khi đặt bàn hoặc khi gọi món để bếp chuẩn bị phù hợp.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-anfora-4">Nhà hàng ở đâu và có chỗ đỗ xe không?<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-anfora-4"><div><p>ANFORA nằm ở tầng một của LIMONI, 62-64 Đại Lộ An Thới, Đặc khu Phú Quốc, Tỉnh An Giang, Việt Nam. Vui lòng liên hệ trước để được hướng dẫn chỗ đỗ xe.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-anfora-5">Tôi có thể đổi hoặc hủy đặt bàn như thế nào?<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-anfora-5"><div><p>Quý khách vui lòng liên hệ +84 348 779 988 hoặc info@limoniboutiquehotel.com càng sớm càng tốt để đổi hoặc hủy đặt bàn.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <article class="pillar solo">
+    <div class="ph shade"><img src="assets/r-09.jpg" alt="" loading="lazy"></div>
+    <div class="pillar-track">
+      <div class="pillar-pin">
+        <div class="pillar-content">
+        <h3 class="pillar-title">Một không gian ẩm thực,<br>một khoảnh khắc bình yên</h3>
+        <span class="rule" aria-hidden="true"></span>
+        <div class="pillar-copy">
+          <p>Một bữa ăn ngon miệng, một thức uống mát lành khiến cho những phút giây bên nhau thêm trọn vẹn.</p>
+          <a class="more ul" href="#dat-ban">Đặt bàn →</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Đặt bàn tại ANFORA (cùng kiểu section đặt phòng trang chủ) -->
+  <section class="booking table-booking" id="dat-ban">
+    <div class="booking-row">
+      <h2 class="stack">
+        <span class="display">Đặt bàn</span>
+        <em class="display indent">tại ANFORA</em>
+      </h2>
+      <div class="booking-side">
+        <h3>Giữ chỗ cho bữa ăn của bạn.</h3>
+        <p class="body">Bạn để lại thông tin đặt bàn, LIMONI sẽ liên hệ lại để xác nhận. Bàn được giữ tối đa 30 phút sau giờ hẹn.</p>
+      </div>
+    </div>
+    <form class="booking-form" id="tableForm" novalidate>
+      <div class="field">
+        <label class="eyebrow" for="tDate">Ngày</label>
+        <div class="control">
+          <input type="date" id="tDate" name="date" required>
+          <svg viewBox="0 0 18 18" aria-hidden="true" fill="none" stroke="#242424" stroke-width="1.2"><rect x="2" y="3.5" width="14" height="12.5"/><path d="M2 7.5h14M6 1.5v4M12 1.5v4"/></svg>
+        </div>
+      </div>
+      <div class="field">
+        <label class="eyebrow" for="tTime">Giờ</label>
+        <div class="control">
+          <select id="tTime" name="time">
+            <option value="07:00">07:00</option>
+            <option value="07:30">07:30</option>
+            <option value="08:00">08:00</option>
+            <option value="08:30">08:30</option>
+            <option value="09:00">09:00</option>
+            <option value="09:30">09:30</option>
+            <option value="10:00">10:00</option>
+            <option value="10:30">10:30</option>
+            <option value="11:00">11:00</option>
+            <option value="11:30">11:30</option>
+            <option value="12:00">12:00</option>
+            <option value="12:30">12:30</option>
+            <option value="13:00">13:00</option>
+            <option value="13:30">13:30</option>
+            <option value="14:00">14:00</option>
+            <option value="14:30">14:30</option>
+            <option value="15:00">15:00</option>
+            <option value="15:30">15:30</option>
+            <option value="16:00">16:00</option>
+            <option value="16:30">16:30</option>
+            <option value="17:00">17:00</option>
+            <option value="17:30">17:30</option>
+            <option value="18:00">18:00</option>
+            <option value="18:30">18:30</option>
+            <option value="19:00" selected>19:00</option>
+            <option value="19:30">19:30</option>
+            <option value="20:00">20:00</option>
+            <option value="20:30">20:30</option>
+            <option value="21:00">21:00</option>
+            <option value="21:30">21:30</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label class="eyebrow" for="tGuests">Số khách</label>
+        <div class="control">
+          <select id="tGuests" name="guests">
+            <option value="1">1 khách</option>
+            <option value="2" selected>2 khách</option>
+            <option value="3">3 khách</option>
+            <option value="4">4 khách</option>
+            <option value="5">5 khách</option>
+            <option value="6">6 khách</option>
+            <option value="7">7 khách</option>
+            <option value="8">8 khách</option>
+            <option value="9">9 khách</option>
+            <option value="10">10 khách</option>
+            <option value="11+">Trên 10 khách</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label class="eyebrow" for="tArea">Không gian</label>
+        <div class="control">
+          <select id="tArea" name="area">
+            <option value="Phòng ăn chính" selected>Phòng ăn chính</option>
+            <option value="Quầy bar">Quầy bar</option>
+            <option value="Tầng thượng">Tầng thượng</option>
+          </select>
+        </div>
+      </div>
+      <button class="btn" type="submit"><span class="btn-label">Đặt bàn</span></button>
+    </form>
+    <p class="form-note" id="tableNote" role="status" aria-live="polite"></p>
+  </section>
+
+</main>
+
+<!-- 09 Footer -->
+<footer class="footer" id="contact">
+  <div class="foot-cols">
+    <div class="foot-col contact">
+      <h4>Liên hệ</h4>
+      <ul>
+        <li>62-64 Đại Lộ An Thới, Đặc khu Phú Quốc, Tỉnh An Giang, Việt Nam</li>
+        <li><a href="tel:+84348779988">+84 348 779 988</a></li>
+        <li><a href="mailto:info@limoniboutiquehotel.com">info@limoniboutiquehotel.com</a></li>
+      </ul>
+    </div>
+    <div class="foot-right">
+      <div class="foot-col">
+        <h4>Khám phá</h4>
+        <ul>
+          <li><a href="about.html">Về LIMONI</a></li>
+          <li><a href="rooms.html">Phòng nghỉ</a></li>
+          <li><a href="anfora.html">ANFORA</a></li>
+          <li><a href="contact.html">Liên hệ</a></li>
+          <li><a href="offer.html">Ưu đãi</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Mạng xã hội</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/limoni.phuquoc/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61594159388135" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://wa.me/84348779988" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://zalo.me/0348779988" target="_blank" rel="noopener">Zalo</a></li>
+          <li><a href="https://maps.app.goo.gl/qTBAm2a1SExUdG5G9" target="_blank" rel="noopener">Google Maps</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="wordmark" aria-hidden="true">ANFORA</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

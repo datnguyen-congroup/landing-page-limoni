@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact & Booking · LIMONI</title>
+<link rel="alternate" hreflang="vi" href="../contact.html">
+<link rel="alternate" hreflang="en" href="contact.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=EB+Garamond&family=Montserrat:wght@600&display=swap">
+<link rel="stylesheet" href="../styles.css">
+<link rel="preload" as="image" href="../assets/contact-hero.jpg" fetchpriority="high">
+<style>html.pt-enter body::after{content:"";position:fixed;inset:0;z-index:2147483000;background:#6a0f26}</style><script>try{if("scrollRestoration" in history)history.scrollRestoration="manual";if(sessionStorage.getItem("limoni-pt")){document.documentElement.classList.add("pt-enter")}}catch(e){}</script>
+<meta name="limoni-heroes" content='{"index.html": "../assets/hero-home.jpg", "about.html": "../assets/about-hero.jpg", "rooms.html": "../assets/rooms-hero.jpg", "anfora.html": "../assets/anfora-hero.jpg", "contact.html": "../assets/contact-hero.jpg", "offer.html": "../assets/rooftop-dining.jpg"}'>
+</head>
+<body>
+
+<!-- 01 Header (fixed) -->
+<header class="site-header" id="header">
+  <button class="hdr-btn" type="button" id="menuOpen" aria-expanded="false" aria-controls="menu">
+    <svg viewBox="0 0 28 8" aria-hidden="true"><path d="M0 1h28M0 7h28" stroke="currentColor" stroke-width="1.5"/></svg>
+    <span class="btn-label">Menu</span>
+  </button>
+  <a class="logo" href="index.html" aria-label="LIMONI, back to the home page">
+    <span class="logo-text">LIMONI</span>
+    <img class="logo-full" src="../assets/logo-limoni-cream.png" alt="" onerror="this.parentNode.classList.add('noimg');this.remove()">
+    <img class="logo-mark" src="../assets/logo-limoni-monogram-cream.png" alt="">
+  </a>
+  <a class="hdr-btn" href="#dat-phong"><span class="btn-label">Booking</span></a>
+</header>
+
+<div class="menu-panel" id="menu" aria-hidden="true" inert>
+  <div class="menu-main">
+  <div class="menu-top">
+  <button class="hdr-btn" type="button" id="menuClose">
+    <svg class="icon-close" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
+    <span class="btn-label">Close</span>
+  </button>
+  <div class="lang-switch" role="group" aria-label="Ngôn ngữ / Language">
+    <a href="../contact.html" hreflang="vi" lang="vi">VN</a>
+    <a href="#" hreflang="en" lang="en" aria-current="true">ENG</a>
+  </div>
+  </div>
+  <nav aria-label="Main navigation">
+    <a href="index.html" style="--i:1"><span>Home</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="about.html" style="--i:2"><span>About LIMONI</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="rooms.html" style="--i:3"><span>Rooms</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="anfora.html" style="--i:4"><span>ANFORA</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="contact.html" style="--i:5" aria-current="page"><span>Contact</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="offer.html" style="--i:6"><span>Offers</span><span class="arrow" aria-hidden="true">→</span></a>
+  </nav>
+  </div>
+  <div class="menu-photo"><img src="../assets/menu-room.jpg" alt="The Signature Suite with a draped canopy bed" decoding="async"></div>
+  <div class="menu-foot" style="--i:6">
+    <span>62-64 An Thoi Avenue, Phu Quoc Special Zone, An Giang Province, Vietnam</span>
+    <a href="tel:+84348779988">+84 348 779 988</a>
+    <a href="mailto:info@limoniboutiquehotel.com">info@limoniboutiquehotel.com</a>
+  </div>
+</div>
+
+<main id="top" class="page-contact">
+  <!-- Hero -->
+  <section class="phero left-middle side">
+    <div class="ph" data-label="Hero"><img src="../assets/contact-hero.jpg" alt="The LIMONI façade seen from the street corner" style="object-position: 50% 30%;"></div>
+    <div class="phero-inner">
+      <h1>We are always<br>happy to welcome you</h1>
+      <div class="hero-links">
+        <a href="mailto:info@limoniboutiquehotel.com">info@limoniboutiquehotel.com</a>
+        <a href="tel:+84348779988">+84 348 779 988</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking form -->
+  <section class="contact-book on-light" id="dat-phong" style="scroll-margin-top: 60px;">
+    <div class="left">
+      <h2 data-reveal>Begin<br><em>Your Stay at</em><br>LIMONI</h2>
+      <div class="contact-info">
+        <span class="divider" aria-hidden="true"></span>
+        <dl>
+          <div><dt>Address</dt><dd>62-64 An Thoi Avenue, Phu Quoc Special Zone, An Giang Province, Vietnam</dd></div>
+          <div><dt>Phone &amp; Email</dt><dd><a href="tel:+84348779988">+84 348 779 988</a> — <a href="mailto:info@limoniboutiquehotel.com">info@limoniboutiquehotel.com</a></dd></div>
+        </dl>
+      </div>
+    </div>
+    <form class="cform" id="contactForm" novalidate>
+      <div class="fields">
+        <div class="cfield"><label for="cName">Full name</label><input id="cName" name="name" type="text" placeholder="Enter your name" autocomplete="name" required></div>
+        <div class="cfield"><label for="cEmail">Email address</label><input id="cEmail" name="email" type="email" placeholder="example@email.com" autocomplete="email" required></div>
+        <div class="cfield"><label for="cCheckin">Check-in date</label><input id="cCheckin" name="checkin" type="date" required></div>
+        <div class="cfield"><label for="cCheckout">Check-out date</label><input id="cCheckout" name="checkout" type="date" required></div>
+        <div class="cfield"><label for="cAdults">Adults</label>
+          <select id="cAdults" name="adults"><option value="1">1 adult</option><option value="2" selected>2 adults</option><option value="3">3 adults</option><option value="4">4 adults</option></select></div>
+        <div class="cfield"><label for="cKids">Children</label>
+          <select id="cKids" name="children"><option value="0" selected>0 children</option><option value="1">1 child</option><option value="2">2 children</option><option value="3">3 children</option></select></div>
+        <div class="cfield full"><label for="cMsg">Message / Special requests</label><textarea id="cMsg" name="message" placeholder="Tell us about any special requests..."></textarea></div>
+      </div>
+      <button class="link-submit" type="submit">Begin Your Stay</button>
+      <p class="form-note" id="contactNote" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <!-- Façade image -->
+  <section class="full-img" aria-hidden="true">
+    <div class="ph"><img src="../assets/contact-wide.jpg" alt="" loading="lazy" style="object-position: 50% 70%;"></div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq on-light" id="faq">
+    <div class="faq-head">
+      <h2>Good<br>to know</h2>
+    </div>
+    <div class="faq-body">
+      <p>Everything you need to know before you arrive.</p>
+      <div class="faq-list" data-accordion="single">
+        <div class="acc-item open">
+          <button class="acc-head" type="button" aria-expanded="true" aria-controls="faq-contact-1">Arrival &amp; Check-in<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-contact-1"><div><p>Check-in is from 14:00. Early check-in may be possible depending on availability — please contact us in advance and we will do our best to help. On arrival, our reception team will welcome you and show you to your room.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-contact-2">Check-out &amp; Payment<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-contact-2"><div><p>Check-out time and accepted payment methods are stated in your booking confirmation email. If you need a late check-out, please let reception know in advance and we will arrange it subject to availability.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-contact-3">Dining &amp; Breakfast<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-contact-3"><div><p>ANFORA, our ground-floor restaurant, serves everything from morning coffee to dinner with wine, and welcomes both hotel guests and visitors. Vegetarian dishes are available throughout the menu.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-contact-4">Special requests<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-contact-4"><div><p>From anniversary room decorations to a private rooftop dinner for groups of 10–20 (by reservation only), you can note your request in the booking form or contact LIMONI directly.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-contact-5">Getting here &amp; Parking<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-contact-5"><div><p>LIMONI is at 62-64 An Thoi Avenue, Phu Quoc Special Zone, An Giang Province, Vietnam. Please contact us in advance for transfers and parking.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-contact-6">House rules &amp; Policies<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-contact-6"><div><p>Our cancellation policy, policies for staying with children and other house rules are sent with your booking confirmation email. For any questions, please call +84 348 779 988 or email info@limoniboutiquehotel.com.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- 09 Footer -->
+<footer class="footer" id="contact">
+  <div class="foot-cols">
+    <div class="foot-col contact">
+      <h4>Contact</h4>
+      <ul>
+        <li>62-64 An Thoi Avenue, Phu Quoc Special Zone, An Giang Province, Vietnam</li>
+        <li><a href="tel:+84348779988">+84 348 779 988</a></li>
+        <li><a href="mailto:info@limoniboutiquehotel.com">info@limoniboutiquehotel.com</a></li>
+      </ul>
+    </div>
+    <div class="foot-right">
+      <div class="foot-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About LIMONI</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="anfora.html">ANFORA</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="offer.html">Offers</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Social</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/limoni.phuquoc/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61594159388135" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://wa.me/84348779988" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://zalo.me/0348779988" target="_blank" rel="noopener">Zalo</a></li>
+          <li><a href="https://maps.app.goo.gl/qTBAm2a1SExUdG5G9" target="_blank" rel="noopener">Google Maps</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="wordmark" aria-hidden="true">LIMONI</p>
+</footer>
+
+<script src="../rooms-data-en.js"></script>
+<script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rooms · LIMONI</title>
+<link rel="alternate" hreflang="vi" href="../rooms.html">
+<link rel="alternate" hreflang="en" href="rooms.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=EB+Garamond&family=Montserrat:wght@600&display=swap">
+<link rel="stylesheet" href="../styles.css">
+<link rel="preload" as="image" href="../assets/rooms-hero.jpg" fetchpriority="high">
+<style>html.pt-enter body::after{content:"";position:fixed;inset:0;z-index:2147483000;background:#6a0f26}</style><script>try{if("scrollRestoration" in history)history.scrollRestoration="manual";if(sessionStorage.getItem("limoni-pt")){document.documentElement.classList.add("pt-enter")}}catch(e){}</script>
+<meta name="limoni-heroes" content='{"index.html": "../assets/hero-home.jpg", "about.html": "../assets/about-hero.jpg", "rooms.html": "../assets/rooms-hero.jpg", "anfora.html": "../assets/anfora-hero.jpg", "contact.html": "../assets/contact-hero.jpg", "offer.html": "../assets/rooftop-dining.jpg"}'>
+</head>
+<body>
+
+<!-- 01 Header (fixed) -->
+<header class="site-header" id="header">
+  <button class="hdr-btn" type="button" id="menuOpen" aria-expanded="false" aria-controls="menu">
+    <svg viewBox="0 0 28 8" aria-hidden="true"><path d="M0 1h28M0 7h28" stroke="currentColor" stroke-width="1.5"/></svg>
+    <span class="btn-label">Menu</span>
+  </button>
+  <a class="logo" href="index.html" aria-label="LIMONI, back to the home page">
+    <span class="logo-text">LIMONI</span>
+    <img class="logo-full" src="../assets/logo-limoni-cream.png" alt="" onerror="this.parentNode.classList.add('noimg');this.remove()">
+    <img class="logo-mark" src="../assets/logo-limoni-monogram-cream.png" alt="">
+  </a>
+  <a class="hdr-btn" href="contact.html#dat-phong"><span class="btn-label">Booking</span></a>
+</header>
+
+<div class="menu-panel" id="menu" aria-hidden="true" inert>
+  <div class="menu-main">
+  <div class="menu-top">
+  <button class="hdr-btn" type="button" id="menuClose">
+    <svg class="icon-close" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
+    <span class="btn-label">Close</span>
+  </button>
+  <div class="lang-switch" role="group" aria-label="Ngôn ngữ / Language">
+    <a href="../rooms.html" hreflang="vi" lang="vi">VN</a>
+    <a href="#" hreflang="en" lang="en" aria-current="true">ENG</a>
+  </div>
+  </div>
+  <nav aria-label="Main navigation">
+    <a href="index.html" style="--i:1"><span>Home</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="about.html" style="--i:2"><span>About LIMONI</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="rooms.html" style="--i:3" aria-current="page"><span>Rooms</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="anfora.html" style="--i:4"><span>ANFORA</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="contact.html" style="--i:5"><span>Contact</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="offer.html" style="--i:6"><span>Offers</span><span class="arrow" aria-hidden="true">→</span></a>
+  </nav>
+  </div>
+  <div class="menu-photo"><img src="../assets/menu-room.jpg" alt="The Signature Suite with a draped canopy bed" decoding="async"></div>
+  <div class="menu-foot" style="--i:6">
+    <span>62-64 An Thoi Avenue, Phu Quoc Special Zone, An Giang Province, Vietnam</span>
+    <a href="tel:+84348779988">+84 348 779 988</a>
+    <a href="mailto:info@limoniboutiquehotel.com">info@limoniboutiquehotel.com</a>
+  </div>
+</div>
+
+<main id="top" class="page-rooms">
+  <!-- Hero -->
+  <section class="phero bottom-center">
+    <div class="ph" data-label="Hero"><img src="../assets/rooms-hero.jpg" alt="A gallery corridor with red walls and green carpet" style="object-position: 50% 45%;"></div>
+    <div class="phero-inner">
+      <p class="lede">Designed to put you at ease the moment you step in and to give you peaceful evenings, every room radiates warmth and care in every detail. You will feel you have arrived somewhere quite unlike the usual hotel experience, without ever losing the comfort and ease you want throughout your stay.</p>
+    </div>
+  </section>
+
+  <!-- Room types: 4 tabs -->
+  <section class="room-types" id="hang-phong" aria-label="Room types">
+    <div class="rt-media">
+      <img class="rt-img on" data-type="standard" src="../assets/type-04.jpg" alt="Standard Room in emerald green with a King bed">
+      <img class="rt-img" data-type="standard" src="../assets/rooms/types/m04-02.jpg" alt="Standard Room — View towards the window" loading="lazy">
+      <img class="rt-img" data-type="superior" src="../assets/type-03.jpg" alt="Superior Room in deep burgundy with a round bed beneath a birdcage canopy" loading="lazy">
+      <img class="rt-img" data-type="superior" src="../assets/rooms/types/m03-02.jpg" alt="Superior Room — Round bed with canopy" loading="lazy">
+      <img class="rt-img" data-type="superior" src="../assets/rooms/types/m03-03.jpg" alt="Superior Room — Round bed, another view" loading="lazy">
+      <img class="rt-img" data-type="deluxe" src="../assets/type-01.jpg" alt="Deluxe Twin Room in blue with two single beds" loading="lazy">
+      <img class="rt-img" data-type="deluxe" src="../assets/rooms/types/m01-01.jpg" alt="Deluxe Room — Entrance & luggage cabinet" loading="lazy">
+      <img class="rt-img" data-type="deluxe" src="../assets/rooms/types/m01-02.jpg" alt="Deluxe Room — Twin bed configuration" loading="lazy">
+      <img class="rt-img" data-type="deluxe" src="../assets/rooms/types/m01-04.jpg" alt="Deluxe Room — Dressing table" loading="lazy">
+      <img class="rt-img" data-type="deluxe" src="../assets/rooms/types/m01-05.jpg" alt="Deluxe Room — Bathroom" loading="lazy">
+      <img class="rt-img" data-type="suite" src="../assets/type-05.jpg" alt="Limoni Suite with a four-poster bed draped in sheer voile" loading="lazy">
+      <img class="rt-img" data-type="suite" src="../assets/rooms/types/m05-02.jpg" alt="Limoni Suite — Red velvet sofa" loading="lazy">
+      <img class="rt-img" data-type="suite" src="../assets/rooms/types/m05-03.jpg" alt="Limoni Suite — Gallery wall & entrance" loading="lazy">
+      <img class="rt-img" data-type="suite" src="../assets/rooms/types/m05-04.jpg" alt="Limoni Suite — Canopy bed" loading="lazy">
+      <img class="rt-img" data-type="suite" src="../assets/rooms/types/m05-05.jpg" alt="Limoni Suite — Bed facing the balcony" loading="lazy">
+      <img class="rt-img" data-type="suite" src="../assets/rooms/types/m05-06.jpg" alt="Limoni Suite — Dressing area" loading="lazy">
+      <img class="rt-img" data-type="suite" src="../assets/rooms/types/m05-07.jpg" alt="Limoni Suite — Red-tiled bathroom" loading="lazy">
+      <img class="rt-img" data-type="suite" src="../assets/rooms/types/m05-08.jpg" alt="Limoni Suite — Glass shower" loading="lazy">
+    </div>
+    <div class="rt-side">
+      <div class="rt-tabs" role="tablist" aria-label="Choose a room type">
+        <button class="rt-tab" type="button" role="tab" id="rt-tab-standard" aria-controls="rt-panel-standard" aria-selected="true">Standard Room</button>
+        <button class="rt-tab" type="button" role="tab" id="rt-tab-superior" aria-controls="rt-panel-superior" aria-selected="false" tabindex="-1">Superior Room</button>
+        <button class="rt-tab" type="button" role="tab" id="rt-tab-deluxe" aria-controls="rt-panel-deluxe" aria-selected="false" tabindex="-1">Deluxe Room</button>
+        <button class="rt-tab" type="button" role="tab" id="rt-tab-suite" aria-controls="rt-panel-suite" aria-selected="false" tabindex="-1">Limoni Suite</button>
+      </div>
+      <div class="rt-panels">
+        <div class="rt-panel on" role="tabpanel" id="rt-panel-standard" aria-labelledby="rt-tab-standard" data-type="standard">
+          <p class="eyebrow">Up to 2 adults, 1 child &nbsp;·&nbsp; King bed &nbsp;·&nbsp; 19 m² &nbsp;·&nbsp; Compact &amp; Simple</p>
+          <h2>Standard Room</h2>
+          <p class="rt-body">A minimal yet refined space, defined by a deep, bewitching green, with a King bed, a walk-in shower and a small balcony facing the avenue, where you can open the doors to the sunrise each morning. Our most accessible room type, yet fully up to the LIMONI standard — ideal for short, easy, convenient trips.</p>
+          <a class="rt-link" href="#booking">Book now →</a>
+        </div>
+        <div class="rt-panel" role="tabpanel" id="rt-panel-superior" aria-labelledby="rt-tab-superior" data-type="superior" hidden>
+          <p class="eyebrow">Up to 2 adults, 1 child &nbsp;·&nbsp; King bed &nbsp;·&nbsp; 23 m² &nbsp;·&nbsp; Elegant &amp; Unique</p>
+          <h2>Superior Room</h2>
+          <p class="rt-body">A room marked by a mesmerising deep burgundy, centred on a 2.4 m round bed and a cosy little sofa. The entrance leads through an open wardrobe, as if you were stepping into a story of your own. With a balcony and a walk-in shower, it is especially suited to romantic couples with a free spirit and strong character, always eager to discover something different.</p>
+          <a class="rt-link" href="#booking">Book now →</a>
+        </div>
+        <div class="rt-panel" role="tabpanel" id="rt-panel-deluxe" aria-labelledby="rt-tab-deluxe" data-type="deluxe" hidden>
+          <p class="eyebrow">Up to 2 adults, 1 child &nbsp;·&nbsp; King or Twin &nbsp;·&nbsp; 26 m² &nbsp;·&nbsp; Flexible &amp; Warm</p>
+          <h2>Deluxe Room</h2>
+          <p class="rt-body">The Deluxe comes in King and Twin options. Each room has its own door, but when needed the two can be connected through a shared hallway — perfect for family trips with parents and children. The King room is spacious, with a bathtub and private balcony; the Twin is neat and tidy, centred on a large window that opens up the space. Both are dressed in a cool, clear turquoise blue that feels relaxing and fresh.</p>
+          <a class="rt-link" href="#booking">Book now →</a>
+        </div>
+        <div class="rt-panel" role="tabpanel" id="rt-panel-suite" aria-labelledby="rt-tab-suite" data-type="suite" hidden>
+          <p class="eyebrow">Up to 2 adults, 1 child &nbsp;·&nbsp; 31 m² &nbsp;·&nbsp; Classical &amp; Luxury</p>
+          <h2>Limoni Suite</h2>
+          <p class="rt-body">LIMONI's finest room, dressed in an elegant, nostalgic grey-green. At the far end is a large sofa bed, the perfect place to let go and unwind. The suite has a transparent bathtub and a balcony overlooking the avenue; the bathing area is cleverly lit to welcome natural sunlight without losing privacy. The choice for guests who love generous, distinctive spaces.</p>
+          <a class="rt-link" href="#booking">Book now →</a>
+        </div>
+      </div>
+      <div class="rt-nav">
+        <span class="rt-count" aria-live="polite"><b>01</b> / 04</span>
+        <div class="rt-arrows">
+          <button class="rt-arrow" type="button" data-dir="-1" aria-label="Previous room type"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+          <button class="rt-arrow" type="button" data-dir="1" aria-label="Next room type"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Love Archive -->
+  <section class="archive on-light">
+    <h2 class="archive-title">
+      <span class="display">The Love</span>
+      <em class="display r">Archive</em>
+    </h2>
+    <div class="ph archive-img"><img src="../assets/rooms-archive.jpg" alt="A corridor leading to the room doors" loading="lazy"></div>
+    <div class="archive-side" data-reveal>
+      <p class="lead">Telling love stories<br>through the language of design</p>
+      <div class="body"><p>Each floor has five rooms, numbered 01 to 05. Those five positions correspond to five distinct designs; the layout repeats from floor to floor, but different styling gives every room its own character.</p><p>Twenty rooms are the twenty chapters of The Love Archive, from The Letter to The Empty Frame. Each room tells its own story through painting, light and the feelings of those who experience it.</p></div>
+    </div>
+  </section>
+
+  <!-- Floors + room cards -->
+  <section class="floors" id="floors" aria-label="Rooms by floor">
+    <div class="floors-left">
+      <h2><span>The Love</span><em>Archive</em></h2>
+      <div data-accordion="single">
+        <div class="acc-item open" data-floor="2">
+          <button class="acc-head" type="button" aria-expanded="true" aria-controls="floor-2">Floor 2<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="floor-2"><div>
+            <div class="floor-detail">
+              <p>Five love stories, five rooms 201–205: The Letter, The Titanic, The Green Light, The Notebook and The Balcony. Each room has its own design; tap a room to see its story, floor plan and photos.</p>
+              <svg class="floor-plan" viewBox="0 0 290 208" role="img" aria-label="Illustrated plan of floor 2: five rooms, 201 to 205, around the corridor">
+            <g class="fp-rooms"><rect class="fp-room" x="6" y="6" width="92" height="76" data-fp="201" data-room-id="the-letter"><title>Room 201 – The Letter</title></rect><rect class="fp-room" x="98" y="6" width="92" height="76" data-fp="202" data-room-id="the-titanic"><title>Room 202 – The Titanic</title></rect><rect class="fp-room" x="190" y="6" width="94" height="76" data-fp="203" data-room-id="the-green-light"><title>Room 203 – The Green Light</title></rect><rect class="fp-room" x="6" y="126" width="139" height="76" data-fp="204" data-room-id="the-notebook"><title>Room 204 – The Notebook</title></rect><rect class="fp-room" x="145" y="126" width="139" height="76" data-fp="205" data-room-id="the-balcony"><title>Room 205 – The Balcony</title></rect></g>
+            <g fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="6" y="6" width="278" height="196"/>
+              <path d="M6 82h278M6 126h278M98 6v76M190 6v76M145 126v76"/>
+              <path d="M240 82v44" stroke-dasharray="3 3"/>
+            </g>
+            <g fill="currentColor" font-family="DM Sans, Arial, sans-serif" font-size="11" text-anchor="middle">
+              <text x="52" y="48">201</text><text x="144" y="48">202</text><text x="237" y="48">203</text>
+              <text x="75" y="168">204</text><text x="214" y="168">205</text>
+              <text x="120" y="108" font-size="9" letter-spacing="1.5">CORRIDOR</text>
+            </g>
+          </svg>
+            </div>
+          </div></div>
+        </div>
+        <div class="acc-item" data-floor="3">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="floor-3">Floor 3<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="floor-3"><div>
+            <div class="floor-detail">
+              <p>Five love stories, five rooms 301–305: Unexpected Love, As Time Goes By, The Bridge, Imagine and The Empire. Each room has its own design; tap a room to see its story, floor plan and photos.</p>
+              <svg class="floor-plan" viewBox="0 0 290 208" role="img" aria-label="Illustrated plan of floor 3: five rooms, 301 to 305, around the corridor">
+            <g class="fp-rooms"><rect class="fp-room" x="6" y="6" width="92" height="76" data-fp="301" data-room-id="unexpected-love"><title>Room 301 – Unexpected Love</title></rect><rect class="fp-room" x="98" y="6" width="92" height="76" data-fp="302" data-room-id="as-time-goes-by"><title>Room 302 – As Time Goes By</title></rect><rect class="fp-room" x="190" y="6" width="94" height="76" data-fp="303" data-room-id="the-bridge"><title>Room 303 – The Bridge</title></rect><rect class="fp-room" x="6" y="126" width="139" height="76" data-fp="304" data-room-id="imagine"><title>Room 304 – Imagine</title></rect><rect class="fp-room" x="145" y="126" width="139" height="76" data-fp="305" data-room-id="the-empire"><title>Room 305 – The Empire</title></rect></g>
+            <g fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="6" y="6" width="278" height="196"/>
+              <path d="M6 82h278M6 126h278M98 6v76M190 6v76M145 126v76"/>
+              <path d="M240 82v44" stroke-dasharray="3 3"/>
+            </g>
+            <g fill="currentColor" font-family="DM Sans, Arial, sans-serif" font-size="11" text-anchor="middle">
+              <text x="52" y="48">301</text><text x="144" y="48">302</text><text x="237" y="48">303</text>
+              <text x="75" y="168">304</text><text x="214" y="168">305</text>
+              <text x="120" y="108" font-size="9" letter-spacing="1.5">CORRIDOR</text>
+            </g>
+          </svg>
+            </div>
+          </div></div>
+        </div>
+        <div class="acc-item" data-floor="4">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="floor-4">Floor 4<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="floor-4"><div>
+            <div class="floor-detail">
+              <p>Five love stories, five rooms 401–405: First Snow, The Choice, The Dream, Eternity and A Lifetime. Each room has its own design; tap a room to see its story, floor plan and photos.</p>
+              <svg class="floor-plan" viewBox="0 0 290 208" role="img" aria-label="Illustrated plan of floor 4: five rooms, 401 to 405, around the corridor">
+            <g class="fp-rooms"><rect class="fp-room" x="6" y="6" width="92" height="76" data-fp="401" data-room-id="first-snow"><title>Room 401 – First Snow</title></rect><rect class="fp-room" x="98" y="6" width="92" height="76" data-fp="402" data-room-id="the-choice"><title>Room 402 – The Choice</title></rect><rect class="fp-room" x="190" y="6" width="94" height="76" data-fp="403" data-room-id="the-dream"><title>Room 403 – The Dream</title></rect><rect class="fp-room" x="6" y="126" width="139" height="76" data-fp="404" data-room-id="eternity"><title>Room 404 – Eternity</title></rect><rect class="fp-room" x="145" y="126" width="139" height="76" data-fp="405" data-room-id="a-lifetime"><title>Room 405 – A Lifetime</title></rect></g>
+            <g fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="6" y="6" width="278" height="196"/>
+              <path d="M6 82h278M6 126h278M98 6v76M190 6v76M145 126v76"/>
+              <path d="M240 82v44" stroke-dasharray="3 3"/>
+            </g>
+            <g fill="currentColor" font-family="DM Sans, Arial, sans-serif" font-size="11" text-anchor="middle">
+              <text x="52" y="48">401</text><text x="144" y="48">402</text><text x="237" y="48">403</text>
+              <text x="75" y="168">404</text><text x="214" y="168">405</text>
+              <text x="120" y="108" font-size="9" letter-spacing="1.5">CORRIDOR</text>
+            </g>
+          </svg>
+            </div>
+          </div></div>
+        </div>
+        <div class="acc-item" data-floor="5">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="floor-5">Floor 5<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="floor-5"><div>
+            <div class="floor-detail">
+              <p>Five love stories, five rooms 501–505: Don&#x27;t Look Back, Summer / Autumn, The Rose and the Crown, The Potion and The Empty Frame. Each room has its own design; tap a room to see its story, floor plan and photos.</p>
+              <svg class="floor-plan" viewBox="0 0 290 208" role="img" aria-label="Illustrated plan of floor 5: five rooms, 501 to 505, around the corridor">
+            <g class="fp-rooms"><rect class="fp-room" x="6" y="6" width="92" height="76" data-fp="501" data-room-id="don-t-look-back"><title>Room 501 – Don&#x27;t Look Back</title></rect><rect class="fp-room" x="98" y="6" width="92" height="76" data-fp="502" data-room-id="summer-autumn"><title>Room 502 – Summer / Autumn</title></rect><rect class="fp-room" x="190" y="6" width="94" height="76" data-fp="503" data-room-id="the-rose-and-the-crown"><title>Room 503 – The Rose and the Crown</title></rect><rect class="fp-room" x="6" y="126" width="139" height="76" data-fp="504" data-room-id="the-potion"><title>Room 504 – The Potion</title></rect><rect class="fp-room" x="145" y="126" width="139" height="76" data-fp="505" data-room-id="the-empty-frame"><title>Room 505 – The Empty Frame</title></rect></g>
+            <g fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="6" y="6" width="278" height="196"/>
+              <path d="M6 82h278M6 126h278M98 6v76M190 6v76M145 126v76"/>
+              <path d="M240 82v44" stroke-dasharray="3 3"/>
+            </g>
+            <g fill="currentColor" font-family="DM Sans, Arial, sans-serif" font-size="11" text-anchor="middle">
+              <text x="52" y="48">501</text><text x="144" y="48">502</text><text x="237" y="48">503</text>
+              <text x="75" y="168">504</text><text x="214" y="168">505</text>
+              <text x="120" y="108" font-size="9" letter-spacing="1.5">CORRIDOR</text>
+            </g>
+          </svg>
+            </div>
+          </div></div>
+        </div>
+      </div>
+    </div>
+    <div class="floors-right">
+      <div class="floor-rooms" data-floor="2" aria-label="Rooms on floor 2">
+        <a class="room-card" href="#phong-the-letter" data-room-id="the-letter" aria-label="View room The Letter – Elizabeth &amp; Darcy">
+          <div class="ph"><img src="../assets/type-01.jpg" alt="" loading="lazy" style="object-position: 62% 50%;"></div>
+          <p class="eyebrow">Floor 2 · Room 201 · Story 01</p>
+          <div class="room-text"><h3>The Letter</h3><p class="eyebrow">Elizabeth &amp; Darcy</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-titanic" data-room-id="the-titanic" aria-label="View room The Titanic – Jack &amp; Rose">
+          <div class="ph"><img src="../assets/type-02.jpg" alt="" loading="lazy" style="object-position: 50% 50%;"></div>
+          <p class="eyebrow">Floor 2 · Room 202 · Story 02</p>
+          <div class="room-text"><h3>The Titanic</h3><p class="eyebrow">Jack &amp; Rose</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-green-light" data-room-id="the-green-light" aria-label="View room The Green Light – Gatsby &amp; Daisy">
+          <div class="ph"><img src="../assets/type-03.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Floor 2 · Room 203 · Story 03</p>
+          <div class="room-text"><h3>The Green Light</h3><p class="eyebrow">Gatsby &amp; Daisy</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-notebook" data-room-id="the-notebook" aria-label="View room The Notebook – Noah &amp; Allie">
+          <div class="ph"><img src="../assets/type-04.jpg" alt="" loading="lazy" style="object-position: 55% 50%;"></div>
+          <p class="eyebrow">Floor 2 · Room 204 · Story 04</p>
+          <div class="room-text"><h3>The Notebook</h3><p class="eyebrow">Noah &amp; Allie</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-balcony" data-room-id="the-balcony" aria-label="View room The Balcony – Romeo &amp; Juliet">
+          <div class="ph"><img src="../assets/type-05.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Floor 2 · Room 205 · Story 05</p>
+          <div class="room-text"><h3>The Balcony</h3><p class="eyebrow">Romeo &amp; Juliet</p></div>
+        </a>
+      </div>
+      <div class="floor-rooms" data-floor="3" aria-label="Rooms on floor 3">
+        <a class="room-card" href="#phong-unexpected-love" data-room-id="unexpected-love" aria-label="View room Unexpected Love – Edward &amp; Vivian">
+          <div class="ph"><img src="../assets/type-01.jpg" alt="" loading="lazy" style="object-position: 62% 50%;"></div>
+          <p class="eyebrow">Floor 3 · Room 301 · Story 06</p>
+          <div class="room-text"><h3>Unexpected Love</h3><p class="eyebrow">Edward &amp; Vivian</p></div>
+        </a>
+        <a class="room-card" href="#phong-as-time-goes-by" data-room-id="as-time-goes-by" aria-label="View room As Time Goes By – Rick &amp; Lisa">
+          <div class="ph"><img src="../assets/type-02.jpg" alt="" loading="lazy" style="object-position: 50% 50%;"></div>
+          <p class="eyebrow">Floor 3 · Room 302 · Story 07</p>
+          <div class="room-text"><h3>As Time Goes By</h3><p class="eyebrow">Rick &amp; Lisa</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-bridge" data-room-id="the-bridge" aria-label="View room The Bridge – The Cowherd &amp; the Weaver Girl">
+          <div class="ph"><img src="../assets/type-03.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Floor 3 · Room 303 · Story 08</p>
+          <div class="room-text"><h3>The Bridge</h3><p class="eyebrow">The Cowherd &amp; the Weaver Girl</p></div>
+        </a>
+        <a class="room-card" href="#phong-imagine" data-room-id="imagine" aria-label="View room Imagine – John Lennon &amp; Yoko Ono">
+          <div class="ph"><img src="../assets/type-04.jpg" alt="" loading="lazy" style="object-position: 55% 50%;"></div>
+          <p class="eyebrow">Floor 3 · Room 304 · Story 09</p>
+          <div class="room-text"><h3>Imagine</h3><p class="eyebrow">John Lennon &amp; Yoko Ono</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-empire" data-room-id="the-empire" aria-label="View room The Empire – Cleopatra &amp; Mark Antony">
+          <div class="ph"><img src="../assets/type-05.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Floor 3 · Room 305 · Story 10</p>
+          <div class="room-text"><h3>The Empire</h3><p class="eyebrow">Cleopatra &amp; Mark Antony</p></div>
+        </a>
+      </div>
+      <div class="floor-rooms" data-floor="4" aria-label="Rooms on floor 4">
+        <a class="room-card" href="#phong-first-snow" data-room-id="first-snow" aria-label="View room First Snow – Joon Sang &amp; Woo Jin">
+          <div class="ph"><img src="../assets/type-01.jpg" alt="" loading="lazy" style="object-position: 62% 50%;"></div>
+          <p class="eyebrow">Floor 4 · Room 401 · Story 11</p>
+          <div class="room-text"><h3>First Snow</h3><p class="eyebrow">Joon Sang &amp; Woo Jin</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-choice" data-room-id="the-choice" aria-label="View room The Choice – Anna Karenina &amp; Vronsky">
+          <div class="ph"><img src="../assets/type-02.jpg" alt="" loading="lazy" style="object-position: 50% 50%;"></div>
+          <p class="eyebrow">Floor 4 · Room 402 · Story 12</p>
+          <div class="room-text"><h3>The Choice</h3><p class="eyebrow">Anna Karenina &amp; Vronsky</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-dream" data-room-id="the-dream" aria-label="View room The Dream – Thuy Kieu &amp; Tu Hai">
+          <div class="ph"><img src="../assets/type-03.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Floor 4 · Room 403 · Story 13</p>
+          <div class="room-text"><h3>The Dream</h3><p class="eyebrow">Thuy Kieu &amp; Tu Hai</p></div>
+        </a>
+        <a class="room-card" href="#phong-eternity" data-room-id="eternity" aria-label="View room Eternity – Shah Jahan &amp; Mumtaz Mahal">
+          <div class="ph"><img src="../assets/type-04.jpg" alt="" loading="lazy" style="object-position: 55% 50%;"></div>
+          <p class="eyebrow">Floor 4 · Room 404 · Story 14</p>
+          <div class="room-text"><h3>Eternity</h3><p class="eyebrow">Shah Jahan &amp; Mumtaz Mahal</p></div>
+        </a>
+        <a class="room-card" href="#phong-a-lifetime" data-room-id="a-lifetime" aria-label="View room A Lifetime – Elizabeth II &amp; Prince Philip">
+          <div class="ph"><img src="../assets/type-05.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Floor 4 · Room 405 · Story 15</p>
+          <div class="room-text"><h3>A Lifetime</h3><p class="eyebrow">Elizabeth II &amp; Prince Philip</p></div>
+        </a>
+      </div>
+      <div class="floor-rooms" data-floor="5" aria-label="Rooms on floor 5">
+        <a class="room-card" href="#phong-don-t-look-back" data-room-id="don-t-look-back" aria-label="View room Don&#x27;t Look Back – Orpheus &amp; Eurydice">
+          <div class="ph"><img src="../assets/type-01.jpg" alt="" loading="lazy" style="object-position: 62% 50%;"></div>
+          <p class="eyebrow">Floor 5 · Room 501 · Story 16</p>
+          <div class="room-text"><h3>Don&#x27;t Look Back</h3><p class="eyebrow">Orpheus &amp; Eurydice</p></div>
+        </a>
+        <a class="room-card" href="#phong-summer-autumn" data-room-id="summer-autumn" aria-label="View room Summer / Autumn – Tom &amp; Summer">
+          <div class="ph"><img src="../assets/type-02.jpg" alt="" loading="lazy" style="object-position: 50% 50%;"></div>
+          <p class="eyebrow">Floor 5 · Room 502 · Story 17</p>
+          <div class="room-text"><h3>Summer / Autumn</h3><p class="eyebrow">Tom &amp; Summer</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-rose-and-the-crown" data-room-id="the-rose-and-the-crown" aria-label="View room The Rose and the Crown – Napoleon &amp; Josephine">
+          <div class="ph"><img src="../assets/type-03.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Floor 5 · Room 503 · Story 18</p>
+          <div class="room-text"><h3>The Rose and the Crown</h3><p class="eyebrow">Napoleon &amp; Josephine</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-potion" data-room-id="the-potion" aria-label="View room The Potion – Tristan &amp; Isolde">
+          <div class="ph"><img src="../assets/type-04.jpg" alt="" loading="lazy" style="object-position: 55% 50%;"></div>
+          <p class="eyebrow">Floor 5 · Room 504 · Story 19</p>
+          <div class="room-text"><h3>The Potion</h3><p class="eyebrow">Tristan &amp; Isolde</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-empty-frame" data-room-id="the-empty-frame" aria-label="View room The Empty Frame – Your own story">
+          <div class="ph"><img src="../assets/type-05.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Floor 5 · Room 505 · Story 20</p>
+          <div class="room-text"><h3>The Empty Frame</h3><p class="eyebrow">Your own story</p></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq on-light" id="faq">
+    <div class="faq-head">
+      <h2>Frequently<br><em>asked questions</em></h2>
+    </div>
+    <div class="faq-body">
+      <p>Everything you need to know before you arrive.</p>
+      <div class="faq-list" data-accordion="single">
+        <div class="acc-item open">
+          <button class="acc-head" type="button" aria-expanded="true" aria-controls="faq-rooms-1">Arrival &amp; Check-in<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-rooms-1"><div><p>Check-in is from 14:00. Early check-in may be possible depending on availability — please contact us in advance and we will do our best to help. On arrival, our reception team will welcome you and show you to your room.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-rooms-2">Check-out &amp; Payment<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-rooms-2"><div><p>Check-out time and accepted payment methods are stated in your booking confirmation email. If you need a late check-out, please let reception know in advance and we will arrange it subject to availability.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-rooms-3">Dining &amp; Breakfast<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-rooms-3"><div><p>ANFORA, our ground-floor restaurant, serves everything from morning coffee to dinner with wine, and welcomes both hotel guests and visitors. Vegetarian dishes are available throughout the menu.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-rooms-4">Special requests<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-rooms-4"><div><p>From anniversary room decorations to a private rooftop dinner for groups of 10–20 (by reservation only), you can note your request in the booking form or contact LIMONI directly.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-rooms-5">Getting here &amp; Parking<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-rooms-5"><div><p>LIMONI is at 62-64 An Thoi Avenue, Phu Quoc Special Zone, An Giang Province, Vietnam. Please contact us in advance for transfers and parking.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-rooms-6">House rules &amp; Policies<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-rooms-6"><div><p>Our cancellation policy, policies for staying with children and other house rules are sent with your booking confirmation email. For any questions, please call +84 348 779 988 or email info@limoniboutiquehotel.com.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <article class="pillar solo">
+    <div class="ph shade"><img src="../assets/type-03.jpg" alt="" loading="lazy"></div>
+    <div class="pillar-track">
+      <div class="pillar-pin">
+        <div class="pillar-content">
+        <h3 class="pillar-title">More than a place to stay</h3>
+        <span class="rule" aria-hidden="true"></span>
+        <div class="pillar-copy">
+          <p>More than a place to stay, LIMONI is where you let yourself unwind and enjoy a space of your own — to feel, and to keep writing your own story.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- 08 Break — booking bar -->
+  <section class="booking" id="booking">
+    <div class="booking-row">
+      <h2 class="stack">
+        <span class="display">Begin</span>
+        <span class="display indent">the 20th</span>
+        <em class="display">story</em>
+      </h2>
+      <div class="booking-side">
+        <h3>The 20th story is your own.</h3>
+        <p class="body">Choose your dates and preferred room. LIMONI will confirm availability and rates within 24 hours.<br>(No payment is taken at this step)</p>
+      </div>
+    </div>
+    <form class="booking-form" id="bookingForm" novalidate>
+      <div class="field">
+        <label class="eyebrow" for="checkin">Check-in</label>
+        <div class="control">
+          <input type="date" id="checkin" name="checkin" required>
+          <svg viewBox="0 0 18 18" aria-hidden="true" fill="none" stroke="#242424" stroke-width="1.2"><rect x="2" y="3.5" width="14" height="12.5"/><path d="M2 7.5h14M6 1.5v4M12 1.5v4"/></svg>
+        </div>
+      </div>
+      <div class="field">
+        <label class="eyebrow" for="checkout">Check-out</label>
+        <div class="control">
+          <input type="date" id="checkout" name="checkout" required>
+          <svg viewBox="0 0 18 18" aria-hidden="true" fill="none" stroke="#242424" stroke-width="1.2"><rect x="2" y="3.5" width="14" height="12.5"/><path d="M2 7.5h14M6 1.5v4M12 1.5v4"/></svg>
+        </div>
+      </div>
+      <div class="field">
+        <label class="eyebrow" for="adults">Adults</label>
+        <div class="control">
+          <select id="adults" name="adults">
+            <option value="1">1 adult</option>
+            <option value="2" selected>2 adults</option>
+            <option value="3">3 adults</option>
+            <option value="4">4 adults</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label class="eyebrow" for="children">Children</label>
+        <div class="control">
+          <select id="children" name="children">
+            <option value="0" selected>0 children</option>
+            <option value="1">1 child</option>
+            <option value="2">2 children</option>
+            <option value="3">3 children</option>
+          </select>
+        </div>
+      </div>
+      <button class="btn" type="submit"><span class="btn-label">Book now</span></button>
+    </form>
+    <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+  </section>
+</main>
+
+<!-- 09 Footer -->
+<footer class="footer" id="contact">
+  <div class="foot-cols">
+    <div class="foot-col contact">
+      <h4>Contact</h4>
+      <ul>
+        <li>62-64 An Thoi Avenue, Phu Quoc Special Zone, An Giang Province, Vietnam</li>
+        <li><a href="tel:+84348779988">+84 348 779 988</a></li>
+        <li><a href="mailto:info@limoniboutiquehotel.com">info@limoniboutiquehotel.com</a></li>
+      </ul>
+    </div>
+    <div class="foot-right">
+      <div class="foot-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About LIMONI</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="anfora.html">ANFORA</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="offer.html">Offers</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Social</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/limoni.phuquoc/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61594159388135" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://wa.me/84348779988" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://zalo.me/0348779988" target="_blank" rel="noopener">Zalo</a></li>
+          <li><a href="https://maps.app.goo.gl/qTBAm2a1SExUdG5G9" target="_blank" rel="noopener">Google Maps</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="wordmark" aria-hidden="true">LIMONI</p>
+</footer>
+
+<script src="../rooms-data-en.js"></script>
+<script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ANFORA Restaurant · LIMONI</title>
+<link rel="alternate" hreflang="vi" href="../anfora.html">
+<link rel="alternate" hreflang="en" href="anfora.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=EB+Garamond&family=Montserrat:wght@600&display=swap">
+<link rel="stylesheet" href="../styles.css">
+<link rel="preload" as="image" href="../assets/anfora-hero.jpg" fetchpriority="high">
+<style>html.pt-enter body::after{content:"";position:fixed;inset:0;z-index:2147483000;background:#6a0f26}</style><script>try{if("scrollRestoration" in history)history.scrollRestoration="manual";if(sessionStorage.getItem("limoni-pt")){document.documentElement.classList.add("pt-enter")}}catch(e){}</script>
+<meta name="limoni-heroes" content='{"index.html": "../assets/hero-home.jpg", "about.html": "../assets/about-hero.jpg", "rooms.html": "../assets/rooms-hero.jpg", "anfora.html": "../assets/anfora-hero.jpg", "contact.html": "../assets/contact-hero.jpg", "offer.html": "../assets/rooftop-dining.jpg"}'>
+</head>
+<body>
+
+<!-- 01 Header (fixed) -->
+<header class="site-header hdr-anfora" id="header">
+  <button class="hdr-btn" type="button" id="menuOpen" aria-expanded="false" aria-controls="menu">
+    <svg viewBox="0 0 28 8" aria-hidden="true"><path d="M0 1h28M0 7h28" stroke="currentColor" stroke-width="1.5"/></svg>
+    <span class="btn-label">Menu</span>
+  </button>
+  <a class="logo" href="index.html" aria-label="LIMONI, back to the home page">
+    <span class="logo-text">ANFORA</span>
+    <img class="logo-full" src="../assets/logo-anfora-cream.png" alt="" onerror="this.parentNode.classList.add('noimg');this.remove()">
+    <img class="logo-mark" src="../assets/logo-anfora-mark-cream.png" alt="">
+  </a>
+  <div class="hdr-right"><a class="hdr-btn" href="#menu-list"><span class="btn-label">Our Menu</span></a><a class="hdr-btn" href="#dat-ban"><span class="btn-label">Reserve</span></a></div>
+</header>
+
+<div class="menu-panel" id="menu" aria-hidden="true" inert>
+  <div class="menu-main">
+  <div class="menu-top">
+  <button class="hdr-btn" type="button" id="menuClose">
+    <svg class="icon-close" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
+    <span class="btn-label">Close</span>
+  </button>
+  <div class="lang-switch" role="group" aria-label="Ngôn ngữ / Language">
+    <a href="../anfora.html" hreflang="vi" lang="vi">VN</a>
+    <a href="#" hreflang="en" lang="en" aria-current="true">ENG</a>
+  </div>
+  </div>
+  <nav aria-label="Main navigation">
+    <a href="index.html" style="--i:1"><span>Home</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="about.html" style="--i:2"><span>About LIMONI</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="rooms.html" style="--i:3"><span>Rooms</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="anfora.html" style="--i:4" aria-current="page"><span>ANFORA</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="contact.html" style="--i:5"><span>Contact</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="offer.html" style="--i:6"><span>Offers</span><span class="arrow" aria-hidden="true">→</span></a>
+  </nav>
+  </div>
+  <div class="menu-photo"><img src="../assets/menu-room.jpg" alt="The Signature Suite with a draped canopy bed" decoding="async"></div>
+  <div class="menu-foot" style="--i:6">
+    <span>62-64 An Thoi Avenue, Phu Quoc Special Zone, An Giang Province, Vietnam</span>
+    <a href="tel:+84348779988">+84 348 779 988</a>
+    <a href="mailto:info@limoniboutiquehotel.com">info@limoniboutiquehotel.com</a>
+  </div>
+</div>
+
+<main id="top" class="page-anfora">
+  <!-- Hero -->
+  <section class="phero middle dim">
+    <div class="ph" data-label="Hero"><img src="../assets/anfora-hero.jpg" alt="The reception desk and lounge of ANFORA restaurant" style="object-position: 55% 50%;"></div>
+    <div class="phero-inner">
+      <h1>ANFORA<br><em>(by LIMONI)</em></h1>
+      <p class="lede">An Italian fusion restaurant on the ground floor and rooftop, where Phu Quoc's natural ingredients meet the generous spirit of Italian and Mediterranean cooking, in an elegant, open space — a one-of-a-kind dining destination in the south of the pearl island. A place for food lovers and romantic souls.</p>
+    </div>
+  </section>
+
+  <!-- Bar image -->
+  <section class="wide-img" style="padding-top: var(--gutter);" aria-hidden="true">
+    <div class="ph"><img src="../assets/anfora-wide.jpg" alt="" loading="lazy"></div>
+  </section>
+
+  <!-- Anfora · The ancient amphora -->
+  <section class="split on-light">
+    <div class="copy">
+      <h2 class="stack">
+        <span class="display" data-reveal>Anfora</span>
+        <em class="display indent" data-reveal style="--d:.08s">The ancient amphora</em>
+      </h2>
+      <div class="body" data-reveal style="--d:.16s">
+        <p>The amphora was the two-handled clay vessel of the ancient Greeks and Romans, used to hold wine and olive oil. It opens the visual story of the restaurant: an open kitchen connecting the cooking space with the dining room, a sleek bar on a fine stone counter, and facing it a carefully curated wine cabinet — a display that is easy to remember and to talk about.</p>
+        <p>Carrying on the spirit of LIMONI — the Mediterranean's "lemons" — ANFORA is the culinary chapter of the brand.</p>
+      </div>
+    </div>
+    <div class="ph tall"><img src="../assets/anfora-1.jpg" alt="Arched wine cabinet and spiral staircase" loading="lazy"></div>
+  </section>
+
+  <!-- The taste of emotion -->
+  <section class="rosso-band navy-band">
+    <div class="band-head">
+      <h2 class="stack">
+        <span class="display" data-reveal>The taste</span>
+        <span class="display indent" data-reveal style="--d:.08s">of</span>
+        <em class="display" data-reveal style="--d:.16s">Emotion</em>
+      </h2>
+      <div class="body" data-reveal style="--d:.24s">
+        <p>The open kitchen and bar sit right in the dining room, so you can watch every dish being cooked and every drink being mixed. Whether it is an energising breakfast, a slow-brewed coffee or an intimate dinner, comfortable seating and a relaxed atmosphere always invite you to stay a little longer, talk without hurry, and let down your guard to share your thoughts and feelings with the people you love.</p>
+      </div>
+    </div>
+    <div class="strip" tabindex="0" aria-label="Photos of the ANFORA dining room, scroll sideways to see more">
+      <div class="ph w-wide"><img src="../assets/g-07.jpg" alt="Dining room, wide view" loading="lazy"></div>
+      <div class="ph w-wide"><img src="../assets/g-08.jpg" alt="The restaurant and bar seen from afar" loading="lazy"></div>
+      <div class="ph w-wide"><img src="../assets/g-02.jpg" alt="Reception desk and lounge" loading="lazy"></div>
+      <div class="ph w-wide"><img src="../assets/g-05.jpg" alt="The bar with high stools and wine shelves" loading="lazy"></div>
+      <div class="ph w-wide"><img src="../assets/g-03.jpg" alt="Main dining room with round tables" loading="lazy"></div>
+      <div class="ph w-narrow"><img src="../assets/g-06.jpg" alt="Arched wine cabinet" loading="lazy"></div>
+    </div>
+    <p class="strip-hint" aria-hidden="true">Drag to see more →</p>
+  </section>
+
+  <!-- Culinary philosophy -->
+  <section class="philosophy on-light" id="menu-list">
+    <div class="left">
+      <h2 class="stack">
+        <span class="display" data-reveal>Culinary</span>
+        <em class="display indent" data-reveal style="--d:.08s">philosophy</em>
+      </h2>
+      <div class="rule-text">
+        <div class="rt">
+          <p>Steak and local seafood, Italian pizza and pasta, refreshing desserts. Vegetarian dishes throughout the menu.</p>
+          <a href="contact.html#dat-phong">See the menu →</a>
+        </div>
+      </div>
+    </div>
+    <div class="menu-list" aria-label="ANFORA's culinary philosophy">
+      <div class="num-box">
+        <p class="num">1.</p>
+        <div class="nb-body">
+          <h3>Mediterranean fusion cuisine</h3>
+          <p>We draw inspiration from the free spirit of Mediterranean cooking, where fresh ingredients and natural flavours always take centre stage. Pairing that finesse with local produce and creative technique, every dish becomes a meeting of cultures — new yet harmonious, simple yet memorable.</p>
+        </div>
+      </div>
+      <div class="num-box">
+        <p class="num">2.</p>
+        <div class="nb-body">
+          <h3>Fresh Phu Quoc seafood</h3>
+          <p>For us, the taste of the island begins with Phu Quoc's fresh seafood. Respecting the natural sweetness and character of each ingredient, we cook just enough to let the freshness shine rather than masking it with seasoning. Every dish is a simple story of the sea, bringing the spirit and abundance of the pearl island to your table.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Private space (VIP Rooftop) -->
+  <section class="rooftop">
+    <div class="rooftop-top">
+      <div class="copy">
+        <h2 class="stack">
+          <span class="display" data-reveal>A private</span>
+          <em class="display indent" data-reveal style="--d:.08s">space</em>
+        </h2>
+        <div class="body" data-reveal style="--d:.16s">
+          <p>The VIP Rooftop is a private space on the roof terrace for intimate gatherings of 10–20 guests. Dining is by reservation only, with a set menu chosen from ANFORA's menu and special dishes, prepared by the restaurant's own kitchen team.</p>
+          <p>You are also welcome to come up to the rooftop for a coffee, to relax and chat at leisure in the open air.</p>
+        </div>
+      </div>
+      <div class="ph"><img src="../assets/rooftop-stair.jpg" alt="A red spiral staircase leading up to the viewing deck" loading="lazy" style="object-position: 50% 55%;"></div>
+    </div>
+    <div class="ph"><img src="../assets/rooftop-dining.jpg" alt="Outdoor dining tables under parasols on the rooftop" loading="lazy"></div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq on-light" id="faq">
+    <div class="faq-head">
+      <h2>Frequently<br><em>asked questions</em></h2>
+    </div>
+    <div class="faq-body">
+      <p>Everything you need to know before you arrive.</p>
+      <div class="faq-list" data-accordion="single">
+        <div class="acc-item open">
+          <button class="acc-head" type="button" aria-expanded="true" aria-controls="faq-anfora-1">How do I reserve a table?<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-anfora-1"><div><p>Please contact the restaurant to reserve. Let us know the date, time, number of guests and any special requests, and we will find the right table for you.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-anfora-2">What does the restaurant serve?<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-anfora-2"><div><p>ANFORA serves Mediterranean fusion cuisine and fresh Phu Quoc seafood, from morning coffee to dinner with wine. Vegetarian dishes are available throughout the menu.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-anfora-3">Can I request vegetarian dishes or tell you about allergies?<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-anfora-3"><div><p>Yes. Please let us know when you reserve or when you order, so the kitchen can prepare accordingly.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-anfora-4">Where is the restaurant, and is there parking?<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-anfora-4"><div><p>ANFORA is on the ground floor of LIMONI, 62-64 An Thoi Avenue, Phu Quoc Special Zone, An Giang Province, Vietnam. Please contact us in advance for parking directions.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-anfora-5">How do I change or cancel a reservation?<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-anfora-5"><div><p>Please call +84 348 779 988 or email info@limoniboutiquehotel.com as early as possible to change or cancel your reservation.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <article class="pillar solo">
+    <div class="ph shade"><img src="../assets/r-09.jpg" alt="" loading="lazy"></div>
+    <div class="pillar-track">
+      <div class="pillar-pin">
+        <div class="pillar-content">
+        <h3 class="pillar-title">A place to dine,<br>a moment of peace</h3>
+        <span class="rule" aria-hidden="true"></span>
+        <div class="pillar-copy">
+          <p>A delicious meal and a refreshing drink make every moment together more complete.</p>
+          <a class="more ul" href="#dat-ban">Reserve a table →</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Table reservation at ANFORA -->
+  <section class="booking table-booking" id="dat-ban">
+    <div class="booking-row">
+      <h2 class="stack">
+        <span class="display">Reserve</span>
+        <em class="display indent">at ANFORA</em>
+      </h2>
+      <div class="booking-side">
+        <h3>Save a table for your meal.</h3>
+        <p class="body">Leave your reservation details and LIMONI will get back to you to confirm. Tables are held for up to 30 minutes after the booked time.</p>
+      </div>
+    </div>
+    <form class="booking-form" id="tableForm" novalidate>
+      <div class="field">
+        <label class="eyebrow" for="tDate">Date</label>
+        <div class="control">
+          <input type="date" id="tDate" name="date" required>
+          <svg viewBox="0 0 18 18" aria-hidden="true" fill="none" stroke="#242424" stroke-width="1.2"><rect x="2" y="3.5" width="14" height="12.5"/><path d="M2 7.5h14M6 1.5v4M12 1.5v4"/></svg>
+        </div>
+      </div>
+      <div class="field">
+        <label class="eyebrow" for="tTime">Time</label>
+        <div class="control">
+          <select id="tTime" name="time">
+            <option value="07:00">07:00</option>
+            <option value="07:30">07:30</option>
+            <option value="08:00">08:00</option>
+            <option value="08:30">08:30</option>
+            <option value="09:00">09:00</option>
+            <option value="09:30">09:30</option>
+            <option value="10:00">10:00</option>
+            <option value="10:30">10:30</option>
+            <option value="11:00">11:00</option>
+            <option value="11:30">11:30</option>
+            <option value="12:00">12:00</option>
+            <option value="12:30">12:30</option>
+            <option value="13:00">13:00</option>
+            <option value="13:30">13:30</option>
+            <option value="14:00">14:00</option>
+            <option value="14:30">14:30</option>
+            <option value="15:00">15:00</option>
+            <option value="15:30">15:30</option>
+            <option value="16:00">16:00</option>
+            <option value="16:30">16:30</option>
+            <option value="17:00">17:00</option>
+            <option value="17:30">17:30</option>
+            <option value="18:00">18:00</option>
+            <option value="18:30">18:30</option>
+            <option value="19:00" selected>19:00</option>
+            <option value="19:30">19:30</option>
+            <option value="20:00">20:00</option>
+            <option value="20:30">20:30</option>
+            <option value="21:00">21:00</option>
+            <option value="21:30">21:30</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label class="eyebrow" for="tGuests">Guests</label>
+        <div class="control">
+          <select id="tGuests" name="guests">
+            <option value="1">1 guest</option>
+            <option value="2" selected>2 guests</option>
+            <option value="3">3 guests</option>
+            <option value="4">4 guests</option>
+            <option value="5">5 guests</option>
+            <option value="6">6 guests</option>
+            <option value="7">7 guests</option>
+            <option value="8">8 guests</option>
+            <option value="9">9 guests</option>
+            <option value="10">10 guests</option>
+            <option value="11+">More than 10 guests</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label class="eyebrow" for="tArea">Seating</label>
+        <div class="control">
+          <select id="tArea" name="area">
+            <option value="Main dining room" selected>Main dining room</option>
+            <option value="Bar">Bar</option>
+            <option value="Rooftop">Rooftop</option>
+          </select>
+        </div>
+      </div>
+      <button class="btn" type="submit"><span class="btn-label">Reserve</span></button>
+    </form>
+    <p class="form-note" id="tableNote" role="status" aria-live="polite"></p>
+  </section>
+
+</main>
+
+<!-- 09 Footer -->
+<footer class="footer" id="contact">
+  <div class="foot-cols">
+    <div class="foot-col contact">
+      <h4>Contact</h4>
+      <ul>
+        <li>62-64 An Thoi Avenue, Phu Quoc Special Zone, An Giang Province, Vietnam</li>
+        <li><a href="tel:+84348779988">+84 348 779 988</a></li>
+        <li><a href="mailto:info@limoniboutiquehotel.com">info@limoniboutiquehotel.com</a></li>
+      </ul>
+    </div>
+    <div class="foot-right">
+      <div class="foot-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About LIMONI</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="anfora.html">ANFORA</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="offer.html">Offers</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Social</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/limoni.phuquoc/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61594159388135" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://wa.me/84348779988" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://zalo.me/0348779988" target="_blank" rel="noopener">Zalo</a></li>
+          <li><a href="https://maps.app.goo.gl/qTBAm2a1SExUdG5G9" target="_blank" rel="noopener">Google Maps</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="wordmark" aria-hidden="true">ANFORA</p>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>

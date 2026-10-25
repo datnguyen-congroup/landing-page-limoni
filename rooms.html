@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Phòng nghỉ · LIMONI</title>
+<link rel="alternate" hreflang="vi" href="rooms.html">
+<link rel="alternate" hreflang="en" href="en/rooms.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=EB+Garamond&family=Montserrat:wght@600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<link rel="preload" as="image" href="assets/rooms-hero.jpg" fetchpriority="high">
+<style>html.pt-enter body::after{content:"";position:fixed;inset:0;z-index:2147483000;background:#6a0f26}</style><script>try{if("scrollRestoration" in history)history.scrollRestoration="manual";if(sessionStorage.getItem("limoni-pt")){document.documentElement.classList.add("pt-enter")}}catch(e){}</script>
+<meta name="limoni-heroes" content='{"index.html": "assets/hero-home.jpg", "about.html": "assets/about-hero.jpg", "about-v1.html": "assets/about-hero.jpg", "rooms.html": "assets/rooms-hero.jpg", "anfora.html": "assets/anfora-hero.jpg", "contact.html": "assets/contact-hero.jpg", "offer.html": "assets/rooftop-dining.jpg"}'>
+</head>
+<body>
+
+<!-- 01 Header (fixed) -->
+<header class="site-header" id="header">
+  <button class="hdr-btn" type="button" id="menuOpen" aria-expanded="false" aria-controls="menu">
+    <svg viewBox="0 0 28 8" aria-hidden="true"><path d="M0 1h28M0 7h28" stroke="currentColor" stroke-width="1.5"/></svg>
+    <span class="btn-label">Menu</span>
+  </button>
+  <a class="logo" href="index.html" aria-label="LIMONI, về trang chủ">
+    <span class="logo-text">LIMONI</span>
+    <img class="logo-full" src="assets/logo-limoni-cream.png" alt="" onerror="this.parentNode.classList.add('noimg');this.remove()">
+    <img class="logo-mark" src="assets/logo-limoni-monogram-cream.png" alt="">
+  </a>
+  <a class="hdr-btn" href="contact.html#dat-phong"><span class="btn-label">Đặt phòng</span></a>
+</header>
+
+<div class="menu-panel" id="menu" aria-hidden="true" inert>
+  <div class="menu-main">
+  <div class="menu-top">
+  <button class="hdr-btn" type="button" id="menuClose">
+    <svg class="icon-close" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
+    <span class="btn-label">Đóng</span>
+  </button>
+  <div class="lang-switch" role="group" aria-label="Ngôn ngữ / Language">
+    <a href="#" hreflang="vi" lang="vi" aria-current="true">VN</a>
+    <a href="en/rooms.html" hreflang="en" lang="en">ENG</a>
+  </div>
+  </div>
+  <nav aria-label="Điều hướng chính">
+    <a href="index.html" style="--i:1"><span>Trang chủ</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="about.html" style="--i:2"><span>Về LIMONI</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="rooms.html" style="--i:3" aria-current="page"><span>Phòng nghỉ</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="anfora.html" style="--i:4"><span>ANFORA</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="contact.html" style="--i:5"><span>Liên hệ</span><span class="arrow" aria-hidden="true">→</span></a>
+    <a href="offer.html" style="--i:6"><span>Ưu đãi</span><span class="arrow" aria-hidden="true">→</span></a>
+  </nav>
+  </div>
+  <div class="menu-photo"><img src="assets/menu-room.jpg" alt="Phòng Suite Dấu ấn với giường canopy buông rèm" decoding="async"></div>
+  <div class="menu-foot" style="--i:6">
+    <span>62-64 Đại Lộ An Thới, Đặc khu Phú Quốc, Tỉnh An Giang, Việt Nam</span>
+    <a href="tel:+84348779988">+84 348 779 988</a>
+    <a href="mailto:info@limoniboutiquehotel.com">info@limoniboutiquehotel.com</a>
+  </div>
+</div>
+
+<main id="top" class="page-rooms">
+  <!-- Hero -->
+  <section class="phero bottom-center">
+    <div class="ph" data-label="Hero"><img src="assets/rooms-hero.jpg" alt="Hành lang trưng bày tranh, tường đỏ và thảm xanh" style="object-position: 50% 45%;"></div>
+    <div class="phero-inner">
+      <p class="lede">Được thiết kế để mang lại cảm giác thư thái ngay khi bước vào và những buổi tối an yên, mỗi căn phòng đều toát lên sự ấm áp và tỉ mỉ trong từng chi tiết. Bạn sẽ có cảm giác như trở về một không gian khác biệt so với những trải nghiệm thông thường, nhưng không hề đánh mất sự thoải mái, dễ chịu trong suốt thời gian lưu trú.</p>
+    </div>
+  </section>
+
+  <!-- Các hạng phòng: 4 tab Standard / Superior / Deluxe / Suite (Figma 251:253) -->
+  <section class="room-types" id="hang-phong" aria-label="Các hạng phòng">
+    <div class="rt-media">
+      <img class="rt-img on" data-type="standard" src="assets/type-04.jpg" alt="Phòng Standard với gam xanh lục bảo và giường King">
+      <img class="rt-img" data-type="standard" src="assets/rooms/types/m04-02.jpg" alt="Phòng Standard — Góc nhìn ra cửa sổ" loading="lazy">
+      <img class="rt-img" data-type="superior" src="assets/type-03.jpg" alt="Phòng Superior với giường tròn dưới vòm lồng chim, tông đỏ đô" loading="lazy">
+      <img class="rt-img" data-type="superior" src="assets/rooms/types/m03-02.jpg" alt="Phòng Superior — Giường tròn với vòm canopy" loading="lazy">
+      <img class="rt-img" data-type="superior" src="assets/rooms/types/m03-03.jpg" alt="Phòng Superior — Giường tròn, góc nhìn khác" loading="lazy">
+      <img class="rt-img" data-type="deluxe" src="assets/type-01.jpg" alt="Phòng Deluxe Twin sắc xanh lam với hai giường đơn" loading="lazy">
+      <img class="rt-img" data-type="deluxe" src="assets/rooms/types/m01-01.jpg" alt="Phòng Deluxe — Lối vào & tủ hành lý" loading="lazy">
+      <img class="rt-img" data-type="deluxe" src="assets/rooms/types/m01-02.jpg" alt="Phòng Deluxe — Cấu hình hai giường đơn" loading="lazy">
+      <img class="rt-img" data-type="deluxe" src="assets/rooms/types/m01-04.jpg" alt="Phòng Deluxe — Bàn trang điểm" loading="lazy">
+      <img class="rt-img" data-type="deluxe" src="assets/rooms/types/m01-05.jpg" alt="Phòng Deluxe — Phòng tắm" loading="lazy">
+      <img class="rt-img" data-type="suite" src="assets/type-05.jpg" alt="Limoni Suite với giường bốn cột buông rèm voan" loading="lazy">
+      <img class="rt-img" data-type="suite" src="assets/rooms/types/m05-02.jpg" alt="Limoni Suite — Sofa nhung đỏ" loading="lazy">
+      <img class="rt-img" data-type="suite" src="assets/rooms/types/m05-03.jpg" alt="Limoni Suite — Tường tranh & lối vào" loading="lazy">
+      <img class="rt-img" data-type="suite" src="assets/rooms/types/m05-04.jpg" alt="Limoni Suite — Giường canopy" loading="lazy">
+      <img class="rt-img" data-type="suite" src="assets/rooms/types/m05-05.jpg" alt="Limoni Suite — Giường nhìn ra ban công" loading="lazy">
+      <img class="rt-img" data-type="suite" src="assets/rooms/types/m05-06.jpg" alt="Limoni Suite — Khu thay đồ" loading="lazy">
+      <img class="rt-img" data-type="suite" src="assets/rooms/types/m05-07.jpg" alt="Limoni Suite — Phòng tắm gạch đỏ" loading="lazy">
+      <img class="rt-img" data-type="suite" src="assets/rooms/types/m05-08.jpg" alt="Limoni Suite — Buồng tắm kính" loading="lazy">
+    </div>
+    <div class="rt-side">
+      <div class="rt-tabs" role="tablist" aria-label="Chọn hạng phòng">
+        <button class="rt-tab" type="button" role="tab" id="rt-tab-standard" aria-controls="rt-panel-standard" aria-selected="true">Phòng Standard</button>
+        <button class="rt-tab" type="button" role="tab" id="rt-tab-superior" aria-controls="rt-panel-superior" aria-selected="false" tabindex="-1">Phòng Superior</button>
+        <button class="rt-tab" type="button" role="tab" id="rt-tab-deluxe" aria-controls="rt-panel-deluxe" aria-selected="false" tabindex="-1">Phòng Deluxe</button>
+        <button class="rt-tab" type="button" role="tab" id="rt-tab-suite" aria-controls="rt-panel-suite" aria-selected="false" tabindex="-1">Limoni Suite</button>
+      </div>
+      <div class="rt-panels">
+        <div class="rt-panel on" role="tabpanel" id="rt-panel-standard" aria-labelledby="rt-tab-standard" data-type="standard">
+          <p class="eyebrow">Tối đa 2 người lớn, 1 trẻ em &nbsp;·&nbsp; Giường King &nbsp;·&nbsp; 19 m² &nbsp;·&nbsp; Compact &amp; Simple</p>
+          <h2>Phòng Standard</h2>
+          <p class="rt-body">Không gian tối giản mà tinh tế, nổi bật với gam xanh lá đậm đầy mê hoặc, đi cùng giường King, buồng tắm đứng và một ban công nhỏ nhìn thẳng ra đại lộ, nơi bạn mở cửa đón bình minh mỗi sớm. Đây là hạng phòng dễ tiếp cận nhất nhưng vẫn trọn vẹn tiêu chuẩn LIMONI, lý tưởng cho những chuyến đi ngắn ngày, gọn gàng và thuận tiện.</p>
+          <a class="rt-link" href="#booking">Đặt phòng →</a>
+        </div>
+        <div class="rt-panel" role="tabpanel" id="rt-panel-superior" aria-labelledby="rt-tab-superior" data-type="superior" hidden>
+          <p class="eyebrow">Tối đa 2 người lớn, 1 trẻ em &nbsp;·&nbsp; Giường King &nbsp;·&nbsp; 23 m² &nbsp;·&nbsp; Elegant &amp; Unique</p>
+          <h2>Phòng Superior</h2>
+          <p class="rt-body">Căn phòng ghi dấu bằng gam đỏ đô ma mị, với điểm nhấn là chiếc giường tròn đường kính 2,4 m và một chiếc sofa nhỏ ấm cúng. Lối vào dẫn qua tủ quần áo mở, gợi cảm giác như bước vào một câu chuyện riêng. Phòng có ban công và buồng tắm đứng, đặc biệt phù hợp với những cặp đôi lãng mạn, mang tinh thần tự do và cá tính mạnh mẽ, luôn khao khát khám phá điều khác biệt.</p>
+          <a class="rt-link" href="#booking">Đặt phòng →</a>
+        </div>
+        <div class="rt-panel" role="tabpanel" id="rt-panel-deluxe" aria-labelledby="rt-tab-deluxe" data-type="deluxe" hidden>
+          <p class="eyebrow">Tối đa 2 người lớn, 1 trẻ em &nbsp;·&nbsp; King hoặc Twin &nbsp;·&nbsp; 26 m² &nbsp;·&nbsp; Flexible &amp; Warm</p>
+          <h2>Phòng Deluxe</h2>
+          <p class="rt-body">Deluxe mang đến hai lựa chọn King và Twin. Mỗi phòng đều có cửa riêng, nhưng khi cần, thiết kế cho phép kết nối hai phòng qua hành lang chung, đáp ứng trọn vẹn cho những chuyến đi của cả gia đình, cả bố mẹ và con cái. Phòng King rộng rãi với bồn tắm và ban công riêng; phòng Twin ngăn nắp, điểm nhấn là ô cửa sổ lớn mở ra không gian phóng khoáng. Cả hai cùng khoác sắc xanh lam ngọc dịu mát, trong trẻo, mang lại cảm giác thư thái và sạch sẽ.</p>
+          <a class="rt-link" href="#booking">Đặt phòng →</a>
+        </div>
+        <div class="rt-panel" role="tabpanel" id="rt-panel-suite" aria-labelledby="rt-tab-suite" data-type="suite" hidden>
+          <p class="eyebrow">Tối đa 2 người lớn, 1 trẻ em &nbsp;·&nbsp; 31 m² &nbsp;·&nbsp; Classical &amp; Luxury</p>
+          <h2>Limoni Suite</h2>
+          <p class="rt-body">Hạng phòng cao cấp nhất của LIMONI, phủ sắc ghi xanh hoài cổ sang trọng. Ở cuối phòng là một sofa giường lớn, nơi lý tưởng để buông mình thư giãn. Phòng có bồn tắm trong suốt và ban công nhìn ra đại lộ; khu tắm được thiết kế lấy sáng khéo léo để vẫn đón nắng tự nhiên mà không đánh mất sự riêng tư. Đây là lựa chọn dành cho những vị khách yêu không gian rộng rãi và độc đáo.</p>
+          <a class="rt-link" href="#booking">Đặt phòng →</a>
+        </div>
+      </div>
+      <div class="rt-nav">
+        <span class="rt-count" aria-live="polite"><b>01</b> / 04</span>
+        <div class="rt-arrows">
+          <button class="rt-arrow" type="button" data-dir="-1" aria-label="Hạng phòng trước"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+          <button class="rt-arrow" type="button" data-dir="1" aria-label="Hạng phòng tiếp theo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Love Archive -->
+  <section class="archive on-light">
+    <h2 class="archive-title">
+      <span class="display">The Love</span>
+      <em class="display r">Archive</em>
+    </h2>
+    <div class="ph archive-img"><img src="assets/rooms-archive.jpg" alt="Hành lang dẫn về phía cửa phòng" loading="lazy"></div>
+    <div class="archive-side" data-reveal>
+      <p class="lead">Kể câu chuyện tình yêu<br>qua ngôn ngữ thiết kế</p>
+      <div class="body"><p>Mỗi tầng có năm phòng, đánh số từ 01 đến 05. Năm vị trí ấy tương ứng với năm mẫu thiết kế riêng biệt; cấu trúc lặp lại qua các tầng, nhưng cách bài trí khác biệt tạo nên chất riêng cho từng phòng.</p><p>Hai mươi phòng là hai mươi chương của The Love Archive, từ The Letter đến The Empty Frame. Mỗi phòng kể một câu chuyện riêng, qua hội họa, ánh sáng và sự rung động của người cảm nhận.</p></div>
+    </div>
+  </section>
+
+  <!-- Danh sách tầng + thẻ phòng -->
+  <section class="floors" id="floors" aria-label="Phòng theo tầng">
+    <div class="floors-left">
+      <h2><span>The Love</span><em>Archive</em></h2>
+      <div data-accordion="single">
+        <div class="acc-item open" data-floor="2">
+          <button class="acc-head" type="button" aria-expanded="true" aria-controls="floor-2">Tầng 2<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="floor-2"><div>
+            <div class="floor-detail">
+              <p>Năm câu chuyện tình, năm phòng 201–205: The Letter, The Titanic, The Green Light, The Notebook và The Balcony. Mỗi phòng một mẫu thiết kế; bấm vào phòng để xem câu chuyện, mặt bằng và hình ảnh.</p>
+              <svg class="floor-plan" viewBox="0 0 290 208" role="img" aria-label="Sơ đồ minh hoạ tầng 2: năm phòng 201 đến 205 quanh hành lang">
+            <g class="fp-rooms"><rect class="fp-room" x="6" y="6" width="92" height="76" data-fp="201" data-room-id="the-letter"><title>Phòng 201 – The Letter</title></rect><rect class="fp-room" x="98" y="6" width="92" height="76" data-fp="202" data-room-id="the-titanic"><title>Phòng 202 – The Titanic</title></rect><rect class="fp-room" x="190" y="6" width="94" height="76" data-fp="203" data-room-id="the-green-light"><title>Phòng 203 – The Green Light</title></rect><rect class="fp-room" x="6" y="126" width="139" height="76" data-fp="204" data-room-id="the-notebook"><title>Phòng 204 – The Notebook</title></rect><rect class="fp-room" x="145" y="126" width="139" height="76" data-fp="205" data-room-id="the-balcony"><title>Phòng 205 – The Balcony</title></rect></g>
+            <g fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="6" y="6" width="278" height="196"/>
+              <path d="M6 82h278M6 126h278M98 6v76M190 6v76M145 126v76"/>
+              <path d="M240 82v44" stroke-dasharray="3 3"/>
+            </g>
+            <g fill="currentColor" font-family="DM Sans, Arial, sans-serif" font-size="11" text-anchor="middle">
+              <text x="52" y="48">201</text><text x="144" y="48">202</text><text x="237" y="48">203</text>
+              <text x="75" y="168">204</text><text x="214" y="168">205</text>
+              <text x="120" y="108" font-size="9" letter-spacing="1.5">HÀNH LANG</text>
+            </g>
+          </svg>
+            </div>
+          </div></div>
+        </div>
+        <div class="acc-item" data-floor="3">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="floor-3">Tầng 3<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="floor-3"><div>
+            <div class="floor-detail">
+              <p>Năm câu chuyện tình, năm phòng 301–305: Unexpected Love, As Time Goes By, The Bridge, Imagine và The Empire. Mỗi phòng một mẫu thiết kế; bấm vào phòng để xem câu chuyện, mặt bằng và hình ảnh.</p>
+              <svg class="floor-plan" viewBox="0 0 290 208" role="img" aria-label="Sơ đồ minh hoạ tầng 3: năm phòng 301 đến 305 quanh hành lang">
+            <g class="fp-rooms"><rect class="fp-room" x="6" y="6" width="92" height="76" data-fp="301" data-room-id="unexpected-love"><title>Phòng 301 – Unexpected Love</title></rect><rect class="fp-room" x="98" y="6" width="92" height="76" data-fp="302" data-room-id="as-time-goes-by"><title>Phòng 302 – As Time Goes By</title></rect><rect class="fp-room" x="190" y="6" width="94" height="76" data-fp="303" data-room-id="the-bridge"><title>Phòng 303 – The Bridge</title></rect><rect class="fp-room" x="6" y="126" width="139" height="76" data-fp="304" data-room-id="imagine"><title>Phòng 304 – Imagine</title></rect><rect class="fp-room" x="145" y="126" width="139" height="76" data-fp="305" data-room-id="the-empire"><title>Phòng 305 – The Empire</title></rect></g>
+            <g fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="6" y="6" width="278" height="196"/>
+              <path d="M6 82h278M6 126h278M98 6v76M190 6v76M145 126v76"/>
+              <path d="M240 82v44" stroke-dasharray="3 3"/>
+            </g>
+            <g fill="currentColor" font-family="DM Sans, Arial, sans-serif" font-size="11" text-anchor="middle">
+              <text x="52" y="48">301</text><text x="144" y="48">302</text><text x="237" y="48">303</text>
+              <text x="75" y="168">304</text><text x="214" y="168">305</text>
+              <text x="120" y="108" font-size="9" letter-spacing="1.5">HÀNH LANG</text>
+            </g>
+          </svg>
+            </div>
+          </div></div>
+        </div>
+        <div class="acc-item" data-floor="4">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="floor-4">Tầng 4<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="floor-4"><div>
+            <div class="floor-detail">
+              <p>Năm câu chuyện tình, năm phòng 401–405: First Snow, The Choice, The Dream, Eternity và A Lifetime. Mỗi phòng một mẫu thiết kế; bấm vào phòng để xem câu chuyện, mặt bằng và hình ảnh.</p>
+              <svg class="floor-plan" viewBox="0 0 290 208" role="img" aria-label="Sơ đồ minh hoạ tầng 4: năm phòng 401 đến 405 quanh hành lang">
+            <g class="fp-rooms"><rect class="fp-room" x="6" y="6" width="92" height="76" data-fp="401" data-room-id="first-snow"><title>Phòng 401 – First Snow</title></rect><rect class="fp-room" x="98" y="6" width="92" height="76" data-fp="402" data-room-id="the-choice"><title>Phòng 402 – The Choice</title></rect><rect class="fp-room" x="190" y="6" width="94" height="76" data-fp="403" data-room-id="the-dream"><title>Phòng 403 – The Dream</title></rect><rect class="fp-room" x="6" y="126" width="139" height="76" data-fp="404" data-room-id="eternity"><title>Phòng 404 – Eternity</title></rect><rect class="fp-room" x="145" y="126" width="139" height="76" data-fp="405" data-room-id="a-lifetime"><title>Phòng 405 – A Lifetime</title></rect></g>
+            <g fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="6" y="6" width="278" height="196"/>
+              <path d="M6 82h278M6 126h278M98 6v76M190 6v76M145 126v76"/>
+              <path d="M240 82v44" stroke-dasharray="3 3"/>
+            </g>
+            <g fill="currentColor" font-family="DM Sans, Arial, sans-serif" font-size="11" text-anchor="middle">
+              <text x="52" y="48">401</text><text x="144" y="48">402</text><text x="237" y="48">403</text>
+              <text x="75" y="168">404</text><text x="214" y="168">405</text>
+              <text x="120" y="108" font-size="9" letter-spacing="1.5">HÀNH LANG</text>
+            </g>
+          </svg>
+            </div>
+          </div></div>
+        </div>
+        <div class="acc-item" data-floor="5">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="floor-5">Tầng 5<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="floor-5"><div>
+            <div class="floor-detail">
+              <p>Năm câu chuyện tình, năm phòng 501–505: Don&#x27;t Look Back, Summer / Autumn, The Rose and the Crown, The Potion và The Empty Frame. Mỗi phòng một mẫu thiết kế; bấm vào phòng để xem câu chuyện, mặt bằng và hình ảnh.</p>
+              <svg class="floor-plan" viewBox="0 0 290 208" role="img" aria-label="Sơ đồ minh hoạ tầng 5: năm phòng 501 đến 505 quanh hành lang">
+            <g class="fp-rooms"><rect class="fp-room" x="6" y="6" width="92" height="76" data-fp="501" data-room-id="don-t-look-back"><title>Phòng 501 – Don&#x27;t Look Back</title></rect><rect class="fp-room" x="98" y="6" width="92" height="76" data-fp="502" data-room-id="summer-autumn"><title>Phòng 502 – Summer / Autumn</title></rect><rect class="fp-room" x="190" y="6" width="94" height="76" data-fp="503" data-room-id="the-rose-and-the-crown"><title>Phòng 503 – The Rose and the Crown</title></rect><rect class="fp-room" x="6" y="126" width="139" height="76" data-fp="504" data-room-id="the-potion"><title>Phòng 504 – The Potion</title></rect><rect class="fp-room" x="145" y="126" width="139" height="76" data-fp="505" data-room-id="the-empty-frame"><title>Phòng 505 – The Empty Frame</title></rect></g>
+            <g fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="6" y="6" width="278" height="196"/>
+              <path d="M6 82h278M6 126h278M98 6v76M190 6v76M145 126v76"/>
+              <path d="M240 82v44" stroke-dasharray="3 3"/>
+            </g>
+            <g fill="currentColor" font-family="DM Sans, Arial, sans-serif" font-size="11" text-anchor="middle">
+              <text x="52" y="48">501</text><text x="144" y="48">502</text><text x="237" y="48">503</text>
+              <text x="75" y="168">504</text><text x="214" y="168">505</text>
+              <text x="120" y="108" font-size="9" letter-spacing="1.5">HÀNH LANG</text>
+            </g>
+          </svg>
+            </div>
+          </div></div>
+        </div>
+      </div>
+    </div>
+    <div class="floors-right">
+      <div class="floor-rooms" data-floor="2" aria-label="Các phòng tầng 2">
+        <a class="room-card" href="#phong-the-letter" data-room-id="the-letter" aria-label="Xem phòng The Letter – Elizabeth &amp; Darcy">
+          <div class="ph"><img src="assets/type-01.jpg" alt="" loading="lazy" style="object-position: 62% 50%;"></div>
+          <p class="eyebrow">Tầng 2 · Phòng 201 · Câu chuyện 01</p>
+          <div class="room-text"><h3>The Letter</h3><p class="eyebrow">Elizabeth &amp; Darcy</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-titanic" data-room-id="the-titanic" aria-label="Xem phòng The Titanic – Jack &amp; Rose">
+          <div class="ph"><img src="assets/type-02.jpg" alt="" loading="lazy" style="object-position: 50% 50%;"></div>
+          <p class="eyebrow">Tầng 2 · Phòng 202 · Câu chuyện 02</p>
+          <div class="room-text"><h3>The Titanic</h3><p class="eyebrow">Jack &amp; Rose</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-green-light" data-room-id="the-green-light" aria-label="Xem phòng The Green Light – Gatsby &amp; Daisy">
+          <div class="ph"><img src="assets/type-03.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Tầng 2 · Phòng 203 · Câu chuyện 03</p>
+          <div class="room-text"><h3>The Green Light</h3><p class="eyebrow">Gatsby &amp; Daisy</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-notebook" data-room-id="the-notebook" aria-label="Xem phòng The Notebook – Noah &amp; Allie">
+          <div class="ph"><img src="assets/type-04.jpg" alt="" loading="lazy" style="object-position: 55% 50%;"></div>
+          <p class="eyebrow">Tầng 2 · Phòng 204 · Câu chuyện 04</p>
+          <div class="room-text"><h3>The Notebook</h3><p class="eyebrow">Noah &amp; Allie</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-balcony" data-room-id="the-balcony" aria-label="Xem phòng The Balcony – Romeo &amp; Juliet">
+          <div class="ph"><img src="assets/type-05.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Tầng 2 · Phòng 205 · Câu chuyện 05</p>
+          <div class="room-text"><h3>The Balcony</h3><p class="eyebrow">Romeo &amp; Juliet</p></div>
+        </a>
+      </div>
+      <div class="floor-rooms" data-floor="3" aria-label="Các phòng tầng 3">
+        <a class="room-card" href="#phong-unexpected-love" data-room-id="unexpected-love" aria-label="Xem phòng Unexpected Love – Edward &amp; Vivian">
+          <div class="ph"><img src="assets/type-01.jpg" alt="" loading="lazy" style="object-position: 62% 50%;"></div>
+          <p class="eyebrow">Tầng 3 · Phòng 301 · Câu chuyện 06</p>
+          <div class="room-text"><h3>Unexpected Love</h3><p class="eyebrow">Edward &amp; Vivian</p></div>
+        </a>
+        <a class="room-card" href="#phong-as-time-goes-by" data-room-id="as-time-goes-by" aria-label="Xem phòng As Time Goes By – Rick &amp; Lisa">
+          <div class="ph"><img src="assets/type-02.jpg" alt="" loading="lazy" style="object-position: 50% 50%;"></div>
+          <p class="eyebrow">Tầng 3 · Phòng 302 · Câu chuyện 07</p>
+          <div class="room-text"><h3>As Time Goes By</h3><p class="eyebrow">Rick &amp; Lisa</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-bridge" data-room-id="the-bridge" aria-label="Xem phòng The Bridge – Ngưu Lang &amp; Chức Nữ">
+          <div class="ph"><img src="assets/type-03.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Tầng 3 · Phòng 303 · Câu chuyện 08</p>
+          <div class="room-text"><h3>The Bridge</h3><p class="eyebrow">Ngưu Lang &amp; Chức Nữ</p></div>
+        </a>
+        <a class="room-card" href="#phong-imagine" data-room-id="imagine" aria-label="Xem phòng Imagine – John Lennon &amp; Yoko Ono">
+          <div class="ph"><img src="assets/type-04.jpg" alt="" loading="lazy" style="object-position: 55% 50%;"></div>
+          <p class="eyebrow">Tầng 3 · Phòng 304 · Câu chuyện 09</p>
+          <div class="room-text"><h3>Imagine</h3><p class="eyebrow">John Lennon &amp; Yoko Ono</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-empire" data-room-id="the-empire" aria-label="Xem phòng The Empire – Cleopatra &amp; Mark Antony">
+          <div class="ph"><img src="assets/type-05.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Tầng 3 · Phòng 305 · Câu chuyện 10</p>
+          <div class="room-text"><h3>The Empire</h3><p class="eyebrow">Cleopatra &amp; Mark Antony</p></div>
+        </a>
+      </div>
+      <div class="floor-rooms" data-floor="4" aria-label="Các phòng tầng 4">
+        <a class="room-card" href="#phong-first-snow" data-room-id="first-snow" aria-label="Xem phòng First Snow – Joon Sang &amp; Woo Jin">
+          <div class="ph"><img src="assets/type-01.jpg" alt="" loading="lazy" style="object-position: 62% 50%;"></div>
+          <p class="eyebrow">Tầng 4 · Phòng 401 · Câu chuyện 11</p>
+          <div class="room-text"><h3>First Snow</h3><p class="eyebrow">Joon Sang &amp; Woo Jin</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-choice" data-room-id="the-choice" aria-label="Xem phòng The Choice – Anna Karenina &amp; Vronsky">
+          <div class="ph"><img src="assets/type-02.jpg" alt="" loading="lazy" style="object-position: 50% 50%;"></div>
+          <p class="eyebrow">Tầng 4 · Phòng 402 · Câu chuyện 12</p>
+          <div class="room-text"><h3>The Choice</h3><p class="eyebrow">Anna Karenina &amp; Vronsky</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-dream" data-room-id="the-dream" aria-label="Xem phòng The Dream – Thúy Kiều &amp; Từ Hải">
+          <div class="ph"><img src="assets/type-03.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Tầng 4 · Phòng 403 · Câu chuyện 13</p>
+          <div class="room-text"><h3>The Dream</h3><p class="eyebrow">Thúy Kiều &amp; Từ Hải</p></div>
+        </a>
+        <a class="room-card" href="#phong-eternity" data-room-id="eternity" aria-label="Xem phòng Eternity – Shah Jahan &amp; Mumtaz Mahal">
+          <div class="ph"><img src="assets/type-04.jpg" alt="" loading="lazy" style="object-position: 55% 50%;"></div>
+          <p class="eyebrow">Tầng 4 · Phòng 404 · Câu chuyện 14</p>
+          <div class="room-text"><h3>Eternity</h3><p class="eyebrow">Shah Jahan &amp; Mumtaz Mahal</p></div>
+        </a>
+        <a class="room-card" href="#phong-a-lifetime" data-room-id="a-lifetime" aria-label="Xem phòng A Lifetime – Elizabeth II &amp; Prince Philip">
+          <div class="ph"><img src="assets/type-05.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Tầng 4 · Phòng 405 · Câu chuyện 15</p>
+          <div class="room-text"><h3>A Lifetime</h3><p class="eyebrow">Elizabeth II &amp; Prince Philip</p></div>
+        </a>
+      </div>
+      <div class="floor-rooms" data-floor="5" aria-label="Các phòng tầng 5">
+        <a class="room-card" href="#phong-don-t-look-back" data-room-id="don-t-look-back" aria-label="Xem phòng Don&#x27;t Look Back – Orpheus &amp; Eurydice">
+          <div class="ph"><img src="assets/type-01.jpg" alt="" loading="lazy" style="object-position: 62% 50%;"></div>
+          <p class="eyebrow">Tầng 5 · Phòng 501 · Câu chuyện 16</p>
+          <div class="room-text"><h3>Don&#x27;t Look Back</h3><p class="eyebrow">Orpheus &amp; Eurydice</p></div>
+        </a>
+        <a class="room-card" href="#phong-summer-autumn" data-room-id="summer-autumn" aria-label="Xem phòng Summer / Autumn – Tom &amp; Summer">
+          <div class="ph"><img src="assets/type-02.jpg" alt="" loading="lazy" style="object-position: 50% 50%;"></div>
+          <p class="eyebrow">Tầng 5 · Phòng 502 · Câu chuyện 17</p>
+          <div class="room-text"><h3>Summer / Autumn</h3><p class="eyebrow">Tom &amp; Summer</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-rose-and-the-crown" data-room-id="the-rose-and-the-crown" aria-label="Xem phòng The Rose and the Crown – Napoleon &amp; Josephine">
+          <div class="ph"><img src="assets/type-03.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Tầng 5 · Phòng 503 · Câu chuyện 18</p>
+          <div class="room-text"><h3>The Rose and the Crown</h3><p class="eyebrow">Napoleon &amp; Josephine</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-potion" data-room-id="the-potion" aria-label="Xem phòng The Potion – Tristan &amp; Isolde">
+          <div class="ph"><img src="assets/type-04.jpg" alt="" loading="lazy" style="object-position: 55% 50%;"></div>
+          <p class="eyebrow">Tầng 5 · Phòng 504 · Câu chuyện 19</p>
+          <div class="room-text"><h3>The Potion</h3><p class="eyebrow">Tristan &amp; Isolde</p></div>
+        </a>
+        <a class="room-card" href="#phong-the-empty-frame" data-room-id="the-empty-frame" aria-label="Xem phòng The Empty Frame – Câu chuyện của bạn">
+          <div class="ph"><img src="assets/type-05.jpg" alt="" loading="lazy" style="object-position: 45% 50%;"></div>
+          <p class="eyebrow">Tầng 5 · Phòng 505 · Câu chuyện 20</p>
+          <div class="room-text"><h3>The Empty Frame</h3><p class="eyebrow">Câu chuyện của bạn</p></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Câu hỏi thường gặp -->
+  <section class="faq on-light" id="faq">
+    <div class="faq-head">
+      <h2>Những câu hỏi<br><em>thường gặp</em></h2>
+    </div>
+    <div class="faq-body">
+      <p>Tất cả những điều bạn cần biết trước khi tới.</p>
+      <div class="faq-list" data-accordion="single">
+        <div class="acc-item open">
+          <button class="acc-head" type="button" aria-expanded="true" aria-controls="faq-rooms-1">Đón khách &amp; Nhận phòng<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-rooms-1"><div><p>Giờ nhận phòng từ 14:00. Quý khách có thể nhận phòng sớm hơn tùy tình trạng phòng trống, vui lòng liên hệ trước để được hỗ trợ. Khi đến nơi, đội ngũ lễ tân sẽ chào đón và hướng dẫn quý khách tận phòng.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-rooms-2">Trả phòng &amp; Thanh toán<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-rooms-2"><div><p>Giờ trả phòng và các hình thức thanh toán được ghi rõ trong email xác nhận đặt phòng. Nếu cần trả phòng muộn, quý khách vui lòng báo lễ tân trước để được sắp xếp tùy tình trạng phòng.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-rooms-3">Ẩm thực &amp; Bữa sáng<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-rooms-3"><div><p>Nhà hàng ANFORA ở tầng một phục vụ từ cà phê sáng đến bữa tối cùng rượu vang, mở cửa cho cả khách lưu trú và khách vãng lai. Thực đơn có món chay xuyên suốt.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-rooms-4">Yêu cầu đặc biệt<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-rooms-4"><div><p>Từ trang trí phòng cho dịp kỷ niệm đến bữa tối riêng trên tầng mái cho nhóm 10–20 khách (chỉ phục vụ khi đặt trước), quý khách có thể ghi yêu cầu trong form đặt phòng hoặc liên hệ trực tiếp với LIMONI.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-rooms-5">Di chuyển &amp; Đỗ xe<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-rooms-5"><div><p>LIMONI nằm tại 62-64 Đại Lộ An Thới, Đặc khu Phú Quốc, Tỉnh An Giang, Việt Nam. Vui lòng liên hệ trước để được tư vấn đưa đón và chỗ đỗ xe.</p></div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" type="button" aria-expanded="false" aria-controls="faq-rooms-6">Nội quy &amp; Chính sách<span class="acc-icon" aria-hidden="true"></span></button>
+          <div class="acc-body" id="faq-rooms-6"><div><p>Chính sách huỷ phòng, lưu trú cùng trẻ em và các nội quy khác được gửi kèm email xác nhận đặt phòng. Mọi thắc mắc, xin liên hệ +84 348 779 988 hoặc info@limoniboutiquehotel.com.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <article class="pillar solo">
+    <div class="ph shade"><img src="assets/type-03.jpg" alt="" loading="lazy"></div>
+    <div class="pillar-track">
+      <div class="pillar-pin">
+        <div class="pillar-content">
+        <h3 class="pillar-title">Hơn cả một nơi nghỉ</h3>
+        <span class="rule" aria-hidden="true"></span>
+        <div class="pillar-copy">
+          <p>LIMONI, hơn cả một nơi lưu trú, là nơi bạn cho phép mình thư giãn và tận hưởng không gian riêng, để cảm nhận và viết tiếp câu chuyện của riêng mình.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- 08 Break — booking bar -->
+  <section class="booking" id="booking">
+    <div class="booking-row">
+      <h2 class="stack">
+        <span class="display">Bắt đầu</span>
+        <span class="display indent">câu chuyện</span>
+        <em class="display">thứ 20</em>
+      </h2>
+      <div class="booking-side">
+        <h3>Câu chuyện thứ 20 là của chính bạn.</h3>
+        <p class="body">Chọn ngày và phòng mong muốn. LIMONI xác nhận phòng trống và giá trong vòng 24 giờ.<br>(Sẽ không có khoản thanh toán nào ở bước này)</p>
+      </div>
+    </div>
+    <form class="booking-form" id="bookingForm" novalidate>
+      <div class="field">
+        <label class="eyebrow" for="checkin">Nhận phòng</label>
+        <div class="control">
+          <input type="date" id="checkin" name="checkin" required>
+          <svg viewBox="0 0 18 18" aria-hidden="true" fill="none" stroke="#242424" stroke-width="1.2"><rect x="2" y="3.5" width="14" height="12.5"/><path d="M2 7.5h14M6 1.5v4M12 1.5v4"/></svg>
+        </div>
+      </div>
+      <div class="field">
+        <label class="eyebrow" for="checkout">Trả phòng</label>
+        <div class="control">
+          <input type="date" id="checkout" name="checkout" required>
+          <svg viewBox="0 0 18 18" aria-hidden="true" fill="none" stroke="#242424" stroke-width="1.2"><rect x="2" y="3.5" width="14" height="12.5"/><path d="M2 7.5h14M6 1.5v4M12 1.5v4"/></svg>
+        </div>
+      </div>
+      <div class="field">
+        <label class="eyebrow" for="adults">Người lớn</label>
+        <div class="control">
+          <select id="adults" name="adults">
+            <option value="1">1 người lớn</option>
+            <option value="2" selected>2 người lớn</option>
+            <option value="3">3 người lớn</option>
+            <option value="4">4 người lớn</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label class="eyebrow" for="children">Trẻ em</label>
+        <div class="control">
+          <select id="children" name="children">
+            <option value="0" selected>0 trẻ em</option>
+            <option value="1">1 trẻ em</option>
+            <option value="2">2 trẻ em</option>
+            <option value="3">3 trẻ em</option>
+          </select>
+        </div>
+      </div>
+      <button class="btn" type="submit"><span class="btn-label">Đặt phòng</span></button>
+    </form>
+    <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+  </section>
+</main>
+
+<!-- 09 Footer -->
+<footer class="footer" id="contact">
+  <div class="foot-cols">
+    <div class="foot-col contact">
+      <h4>Liên hệ</h4>
+      <ul>
+        <li>62-64 Đại Lộ An Thới, Đặc khu Phú Quốc, Tỉnh An Giang, Việt Nam</li>
+        <li><a href="tel:+84348779988">+84 348 779 988</a></li>
+        <li><a href="mailto:info@limoniboutiquehotel.com">info@limoniboutiquehotel.com</a></li>
+      </ul>
+    </div>
+    <div class="foot-right">
+      <div class="foot-col">
+        <h4>Khám phá</h4>
+        <ul>
+          <li><a href="about.html">Về LIMONI</a></li>
+          <li><a href="rooms.html">Phòng nghỉ</a></li>
+          <li><a href="anfora.html">ANFORA</a></li>
+          <li><a href="contact.html">Liên hệ</a></li>
+          <li><a href="offer.html">Ưu đãi</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Mạng xã hội</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/limoni.phuquoc/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61594159388135" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://wa.me/84348779988" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://zalo.me/0348779988" target="_blank" rel="noopener">Zalo</a></li>
+          <li><a href="https://maps.app.goo.gl/qTBAm2a1SExUdG5G9" target="_blank" rel="noopener">Google Maps</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="wordmark" aria-hidden="true">LIMONI</p>
+</footer>
+
+<script src="rooms-data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
