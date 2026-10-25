@@ -188,11 +188,20 @@ function T(vi, en) { return LIMONI_EN ? en : vi; }
         problem[0].focus();
         return;
       }
-      var nights = Math.round((new Date(cout.value) - new Date(cin.value)) / 86400000);
-      cnote.textContent = T('Cảm ơn ' + name.value.trim() + '. LIMONI đã ghi nhận yêu cầu ' + fmt(cin.value) + ' – ' +
-        fmt(cout.value) + ' (' + nights + ' đêm) và sẽ phản hồi tới ' + email.value.trim() + ' trong vòng 24 giờ.',
-        'Thank you, ' + name.value.trim() + '. LIMONI has received your request for ' + fmt(cin.value) + ' – ' +
-        fmt(cout.value) + ' (' + nights + (nights === 1 ? ' night' : ' nights') + ') and will reply to ' + email.value.trim() + ' within 24 hours.');
+      var params = [
+        ['hotel_code', 'JT4AB3'],
+        ['check_in', cin.value],
+        ['check_out', cout.value],
+        ['num_of_rooms', 1],
+        ['num_of_adults', document.getElementById('cAdults').value],
+        ['num_of_children', document.getElementById('cKids').value],
+        ['promo_code', ''],
+        ['room_code', ''],
+        ['lang', T('vi', 'en')],
+        ['currency', 'VND']
+      ].map(function (p) { return p[0] + '=' + encodeURIComponent(p[1]); }).join('&');
+      cnote.textContent = T('Đang chuyển tới trang đặt phòng…', 'Redirecting to the booking page…');
+      window.location.href = 'https://booking.ezcms.vn/hotel/BeDetailHotel?' + params;
     });
   }
 
