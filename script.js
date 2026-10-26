@@ -124,6 +124,23 @@ function T(vi, en) { return LIMONI_EN ? en : vi; }
     });
   }
 
+  // Chuyển sang engine đặt phòng EZCMS (dùng chung cho thanh đặt phòng và form liên hệ)
+  function goToBooking(checkInVal, checkOutVal, adults, children) {
+    var params = [
+      ['hotel_code', 'JT4AB3'],
+      ['check_in', checkInVal],
+      ['check_out', checkOutVal],
+      ['num_of_rooms', 1],
+      ['num_of_adults', adults],
+      ['num_of_children', children],
+      ['promo_code', ''],
+      ['room_code', ''],
+      ['lang', T('vi', 'en')],
+      ['currency', 'VND']
+    ].map(function (p) { return p[0] + '=' + encodeURIComponent(p[1]); }).join('&');
+    window.location.href = 'https://booking.ezcms.vn/hotel/BeDetailHotel?' + params;
+  }
+
   /* ---------- Thanh đặt phòng (trang chủ, trang phòng) ---------- */
   var form = document.getElementById('bookingForm');
   if (form) {
@@ -154,14 +171,8 @@ function T(vi, en) { return LIMONI_EN ? en : vi; }
         checkout.focus();
         return;
       }
-      var nights = Math.round((new Date(checkout.value) - new Date(checkin.value)) / 86400000);
-      var ad = document.getElementById('adults').value, ch = document.getElementById('children').value;
-      note.textContent = T('Đã ghi nhận yêu cầu' + (chosenRoom ? ' phòng ' + chosenRoom : '') + ': ' +
-        fmt(checkin.value) + ' – ' + fmt(checkout.value) + ' (' + nights + ' đêm), ' +
-        ad + ' người lớn, ' + ch + ' trẻ em. LIMONI sẽ xác nhận trong vòng 24 giờ.',
-        'Request received' + (chosenRoom ? ' for ' + chosenRoom : '') + ': ' +
-        fmt(checkin.value) + ' – ' + fmt(checkout.value) + ' (' + nights + (nights === 1 ? ' night), ' : ' nights), ') +
-        ad + (ad === '1' ? ' adult, ' : ' adults, ') + ch + (ch === '1' ? ' child' : ' children') + '. LIMONI will confirm within 24 hours.');
+      note.textContent = T('Đang chuyển tới trang đặt phòng…', 'Redirecting to the booking page…');
+      goToBooking(checkin.value, checkout.value, document.getElementById('adults').value, document.getElementById('children').value);
     });
   }
 
@@ -188,20 +199,8 @@ function T(vi, en) { return LIMONI_EN ? en : vi; }
         problem[0].focus();
         return;
       }
-      var params = [
-        ['hotel_code', 'JT4AB3'],
-        ['check_in', cin.value],
-        ['check_out', cout.value],
-        ['num_of_rooms', 1],
-        ['num_of_adults', document.getElementById('cAdults').value],
-        ['num_of_children', document.getElementById('cKids').value],
-        ['promo_code', ''],
-        ['room_code', ''],
-        ['lang', T('vi', 'en')],
-        ['currency', 'VND']
-      ].map(function (p) { return p[0] + '=' + encodeURIComponent(p[1]); }).join('&');
       cnote.textContent = T('Đang chuyển tới trang đặt phòng…', 'Redirecting to the booking page…');
-      window.location.href = 'https://booking.ezcms.vn/hotel/BeDetailHotel?' + params;
+      goToBooking(cin.value, cout.value, document.getElementById('cAdults').value, document.getElementById('cKids').value);
     });
   }
 
