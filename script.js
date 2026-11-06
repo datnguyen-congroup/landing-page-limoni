@@ -961,3 +961,82 @@ function T(vi, en) { return LIMONI_EN ? en : vi; }
   window.addEventListener('resize', sync);
   sync();
 })();
+
+/* ---------- Remote config: ảnh + nội dung cấu hình từ trang admin (server/) ----------
+   Phần tử gắn data-rc-img="<khoá>" / data-rc-text="<khoá>" sẽ được thay bằng giá trị trong site-config.json nếu có;
+   nội dung/ảnh viết sẵn trong HTML là bản dự phòng (không tải được cấu hình thì trang vẫn đúng như cũ).
+   Khoá hợp lệ: xem server/src/schema.js. Đặt RC_URL production bên dưới khi đã deploy backend. */
+(function () {
+  var RC_URL = 'https://dev.ams.congroup.vn/limoni/api/site-config'; // mặc định cho mọi hostname; đổi sang URL production khi deploy
+  var nodes = document.querySelectorAll('[data-rc-img], [data-rc-text]');
+  if (!RC_URL || !nodes.length) return;
+
+  var CACHE_KEY = 'limoni-rc';
+  var lang = LIMONI_EN ? 'en' : 'vi';
+
+  function original(el, read) {
+    if (!('rcOrig' in el.dataset)) el.dataset.rcOrig = JSON.stringify(read());
+    return JSON.parse(el.dataset.rcOrig);
+  }
+  function setAttr(el, name, value) {
+    if (value == null) el.removeAttribute(name); else el.setAttribute(name, value);
+  }
+
+  function applyText(el, value) {
+    var orig = original(el, function () { return el.textContent; });
+    var next = value || orig;
+    if (el.textContent !== next) el.textContent = next;
+  }
+
+  function applyImage(img, data) {
+    var orig = original(img, function () {
+      return { src: img.getAttribute('src'), srcset: img.getAttribute('srcset'), alt: img.getAttribute('alt'),
+               width: img.getAttribute('width'), height: img.getAttribute('height') };
+    });
+    if (!data || !data.src) { // không cấu hình => trả về ảnh mặc định trong HTML
+      if (img.dataset.rcSrc) {
+        delete img.dataset.rcSrc;
+        setAttr(img, 'srcset', orig.srcset); setAttr(img, 'src', orig.src); setAttr(img, 'alt', orig.alt);
+        setAttr(img, 'width', orig.width); setAttr(img, 'height', orig.height);
+      }
+      return;
+    }
+    if (img.dataset.rcSrc === data.src) return;
+    // Tải thử trước rồi mới đổi: ảnh lỗi thì giữ ảnh cũ (tránh onerror của HTML gỡ mất thẻ <img>), đổi ảnh không bị nháy trắng.
+    var useSet = img.hasAttribute('sizes'); // chỉ ảnh có sizes mới dùng srcset (các ảnh còn lại hiển thị theo bố cục riêng)
+    var probe = new Image();
+    probe.onload = function () {
+      if (!img.isConnected) return;
+      if (useSet) img.setAttribute('srcset', data.srcset); else img.removeAttribute('srcset');
+      img.setAttribute('src', data.src);
+      if (img.hasAttribute('width') && data.width) { img.setAttribute('width', data.width); img.setAttribute('height', data.height); }
+      var alt = data.alt && data.alt[lang];
+      if (alt) img.setAttribute('alt', alt);
+      img.dataset.rcSrc = data.src;
+    };
+    if (useSet) { probe.sizes = img.sizes; probe.srcset = data.srcset; }
+    probe.src = data.src;
+  }
+
+  function apply(cfg) {
+    if (!cfg || typeof cfg !== 'object') return;
+    nodes.forEach(function (el) {
+      var t = el.getAttribute('data-rc-text');
+      if (t) return applyText(el, cfg.texts && cfg.texts[t] && cfg.texts[t][lang]);
+      applyImage(el, cfg.images && cfg.images[el.getAttribute('data-rc-img')]);
+    });
+  }
+
+  try { apply(JSON.parse(localStorage.getItem(CACHE_KEY))); } catch (e) { /* lần đầu / storage bị chặn */ }
+
+  var ctrl = 'AbortController' in window ? new AbortController() : null;
+  var timer = ctrl && setTimeout(function () { ctrl.abort(); }, 5000);
+  fetch(RC_URL, ctrl ? { signal: ctrl.signal } : {})
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (cfg) {
+      apply(cfg);
+      try { localStorage.setItem(CACHE_KEY, JSON.stringify(cfg)); } catch (e) { /* bỏ qua */ }
+    })
+    .catch(function () { /* mạng/server lỗi: giữ nguyên nội dung hiện tại */ })
+    .then(function () { if (timer) clearTimeout(timer); });
+})();
