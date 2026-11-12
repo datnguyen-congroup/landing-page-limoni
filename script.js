@@ -967,8 +967,8 @@ function T(vi, en) { return LIMONI_EN ? en : vi; }
    nội dung/ảnh viết sẵn trong HTML là bản dự phòng (không tải được cấu hình thì trang vẫn đúng như cũ).
    Khoá hợp lệ: xem server/src/schema.js. Đặt RC_URL production bên dưới khi đã deploy backend. */
 (function () {
-  // var RC_URL = 'https://dev.ams.congroup.vn/limoni/api/site-config'; // mặc định cho mọi hostname; đổi sang URL production khi deploy
-  var RC_URL = 'http://localhost:3010/api/site-config'; // Localhost cho dev; đổi sang URL production khi deploy
+  var RC_URL = 'https://dev.ams.congroup.vn/limoni/api/site-config'; // mặc định cho mọi hostname; đổi sang URL production khi deploy
+  // var RC_URL = 'http://localhost:3010/api/site-config'; // Localhost cho dev; đổi sang URL production khi deploy
   var nodes = document.querySelectorAll('[data-rc-img], [data-rc-text]');
   if (!RC_URL || !nodes.length) return;
 
